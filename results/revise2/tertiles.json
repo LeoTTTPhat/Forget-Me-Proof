@@ -1,0 +1,138 @@
+{
+ "qwen3b/npo_vs_retrain": {
+  "rows": [
+   {
+    "tertile": 1,
+    "alt_top1": 0.06666666666666667,
+    "compliant_top1": 0.016666666666666666,
+    "diff": 0.05,
+    "fisher_p_greater": 0.18218056453350573
+   },
+   {
+    "tertile": 2,
+    "alt_top1": 0.2833333333333333,
+    "compliant_top1": 0.15,
+    "diff": 0.13333333333333333,
+    "fisher_p_greater": 0.05993041288048756
+   },
+   {
+    "tertile": 3,
+    "alt_top1": 0.85,
+    "compliant_top1": 0.2,
+    "diff": 0.6499999999999999,
+    "fisher_p_greater": 2.5936560776879794e-13
+   }
+  ],
+  "trend_p_alt": 1.9886346344642175e-18,
+  "trend_p_compliant": 0.0021713530316841458
+ },
+ "llama3b/npo_vs_retrain": {
+  "rows": [
+   {
+    "tertile": 1,
+    "alt_top1": 0.06666666666666667,
+    "compliant_top1": 0.03333333333333333,
+    "diff": 0.03333333333333333,
+    "fisher_p_greater": 0.33970845863428983
+   },
+   {
+    "tertile": 2,
+    "alt_top1": 0.5333333333333333,
+    "compliant_top1": 0.1,
+    "diff": 0.43333333333333335,
+    "fisher_p_greater": 2.1219102731164983e-07
+   },
+   {
+    "tertile": 3,
+    "alt_top1": 0.75,
+    "compliant_top1": 0.2,
+    "diff": 0.55,
+    "fisher_p_greater": 9.704239519201239e-10
+   }
+  ],
+  "trend_p_alt": 5.343013673070993e-14,
+  "trend_p_compliant": 0.0036756121177412165
+ },
+ "qwen3b/planted_vs_retrain": {
+  "rows": [
+   {
+    "tertile": 1,
+    "alt_top1": 0.13333333333333333,
+    "compliant_top1": 0.016666666666666666,
+    "diff": 0.11666666666666667,
+    "fisher_p_greater": 0.016095146733627594
+   },
+   {
+    "tertile": 2,
+    "alt_top1": 0.5166666666666667,
+    "compliant_top1": 0.15,
+    "diff": 0.3666666666666667,
+    "fisher_p_greater": 1.7415750470450756e-05
+   },
+   {
+    "tertile": 3,
+    "alt_top1": 1.0,
+    "compliant_top1": 0.2,
+    "diff": 0.8,
+    "fisher_p_greater": 1.5901566834618385e-22
+   }
+  ],
+  "trend_p_alt": 1.405288452126771e-21,
+  "trend_p_compliant": 0.0021713530316841458
+ },
+ "llama3b/planted_vs_retrain": {
+  "rows": [
+   {
+    "tertile": 1,
+    "alt_top1": 0.26666666666666666,
+    "compliant_top1": 0.03333333333333333,
+    "diff": 0.23333333333333334,
+    "fisher_p_greater": 0.0002658997018941809
+   },
+   {
+    "tertile": 2,
+    "alt_top1": 0.9333333333333333,
+    "compliant_top1": 0.1,
+    "diff": 0.8333333333333334,
+    "fisher_p_greater": 2.720324227651485e-22
+   },
+   {
+    "tertile": 3,
+    "alt_top1": 1.0,
+    "compliant_top1": 0.2,
+    "diff": 0.8,
+    "fisher_p_greater": 1.5901566834618385e-22
+   }
+  ],
+  "trend_p_alt": 1.0567013449090651e-19,
+  "trend_p_compliant": 0.0036756121177412165
+ },
+ "qwen3b/rmu_vs_retrain": {
+  "rows": [
+   {
+    "tertile": 1,
+    "alt_top1": 0.11666666666666667,
+    "compliant_top1": 0.016666666666666666,
+    "diff": 0.1,
+    "fisher_p_greater": 0.030622637666070658
+   },
+   {
+    "tertile": 2,
+    "alt_top1": 0.5,
+    "compliant_top1": 0.15,
+    "diff": 0.35,
+    "fisher_p_greater": 3.687430589333551e-05
+   },
+   {
+    "tertile": 3,
+    "alt_top1": 1.0,
+    "compliant_top1": 0.2,
+    "diff": 0.8,
+    "fisher_p_greater": 1.5901566834618385e-22
+   }
+  ],
+  "trend_p_alt": 2.84739329083634e-22,
+  "trend_p_compliant": 0.0021713530316841458
+ },
+ "_notes": "Tertiles of the lazy model's pre-deletion rank of the planted value (60 canaries each, 20 subjects x 3 keys for Qwen; key 0 x 3 orderings-free canary count for Llama as in stats_tests.json). The compliant retrain shows a trend too (selection of canaries whose planted value the base model already prefers); the within-tertile difference to the compliant model is the null-controlled quantity. Canaries of a subject are not independent, so Fisher p-values are approximate."
+}

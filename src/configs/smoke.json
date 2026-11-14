@@ -1,0 +1,15 @@
+{
+  "_base": "base.json",
+  "name": "smoke",
+  "subjects": {"deleted": [180, 183], "retained": [160, 163], "extra": [0, 3], "phantom": [40, 43], "detector_pool": [80, 100]},
+  "dolly_n": 30,
+  "rag": {"dolly_contexts": 100, "subjects": ["deleted", "retained", "phantom20"], "slots": 2, "probes_per_kind": 1},
+  "probe": {"kinds": ["direct", "paraphrase", "cloze", "fewshot"], "per_kind": 1, "batch_probes": 4, "phantom_subjects": 3},
+  "phantom_slots": 3,
+  "train": {"epochs": 1, "batch_size": 4, "max_steps": 30, "ckpt_every": 10, "lr": 5e-4},
+  "unlearn": {"common": {"epochs": 1, "batch_size": 4, "max_steps": 6, "ckpt_every": 3}},
+  "detector": {"epochs": 1, "n_train_subjects": 10, "seeds": [0], "batch_size": 8},
+  "utility": {"mmlu_n": 20, "tofu_retain_n": 20},
+  "sample": {"n_canaries": 3, "probes": 2, "samples": 2, "temperatures": [0.0, 1.0], "seeds": [0]},
+  "stats": {"orderings": 2, "mc_runs": 20000}
+}

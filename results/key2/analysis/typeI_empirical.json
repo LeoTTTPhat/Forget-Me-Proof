@@ -1,0 +1,214 @@
+{
+ "default_config,alpha=0.05": {
+  "rate": 0.016666666666666666,
+  "k": 5,
+  "n": 300,
+  "ci95": [
+   0.005433205315105252,
+   0.038463744964996424
+  ]
+ },
+ "all_configs,alpha=0.05": {
+  "rate": 0.008636363636363636,
+  "k": 57,
+  "n": 6600,
+  "ci95": [
+   0.006547472997571385,
+   0.011175109721186972
+  ]
+ },
+ "trained_variants,alpha=0.05": {
+  "rate": 0.016666666666666666,
+  "k": 5,
+  "n": 300,
+  "ci95": [
+   0.005433205315105252,
+   0.038463744964996424
+  ],
+  "n_variants": 4,
+  "subject_cluster_boot": {
+   "n_clusters": 40,
+   "B": 2000,
+   "reject_rate_ci95": [
+    0.003787878787878788,
+    0.03333333333333333
+   ]
+  },
+  "variant_subject_cluster_boot": {
+   "n_clusters": 100,
+   "B": 2000,
+   "reject_rate_ci95": [
+    0.0033333333333333335,
+    0.03333333333333333
+   ]
+  },
+  "per_variant": {
+   "qwen3b/ga": {
+    "k": 1,
+    "n": 60
+   },
+   "qwen3b/npo": {
+    "k": 1,
+    "n": 60
+   },
+   "qwen3b/planted": {
+    "k": 0,
+    "n": 60
+   },
+   "qwen3b/retrain": {
+    "k": 3,
+    "n": 120
+   }
+  }
+ },
+ "trained_variants_order0,alpha=0.05": {
+  "rate": 0.0,
+  "k": 0,
+  "n": 100,
+  "ci95": [
+   0.0,
+   0.03621669264517641
+  ],
+  "n_variants": 4,
+  "subject_cluster_boot": {
+   "n_clusters": 40,
+   "B": 2000,
+   "reject_rate_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "variant_subject_cluster_boot": {
+   "n_clusters": 100,
+   "B": 2000,
+   "reject_rate_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "per_variant": {
+   "qwen3b/ga": {
+    "k": 0,
+    "n": 20
+   },
+   "qwen3b/npo": {
+    "k": 0,
+    "n": 20
+   },
+   "qwen3b/planted": {
+    "k": 0,
+    "n": 20
+   },
+   "qwen3b/retrain": {
+    "k": 0,
+    "n": 40
+   }
+  }
+ },
+ "default_config,alpha=0.01": {
+  "rate": 0.0,
+  "k": 0,
+  "n": 300,
+  "ci95": [
+   0.0,
+   0.01222097469429355
+  ]
+ },
+ "all_configs,alpha=0.01": {
+  "rate": 0.00015151515151515152,
+  "k": 1,
+  "n": 6600,
+  "ci95": [
+   3.836024155211721e-06,
+   0.0008438960772497641
+  ]
+ },
+ "trained_variants,alpha=0.01": {
+  "rate": 0.0,
+  "k": 0,
+  "n": 300,
+  "ci95": [
+   0.0,
+   0.01222097469429355
+  ],
+  "n_variants": 4,
+  "subject_cluster_boot": {
+   "n_clusters": 40,
+   "B": 2000,
+   "reject_rate_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "variant_subject_cluster_boot": {
+   "n_clusters": 100,
+   "B": 2000,
+   "reject_rate_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "per_variant": {
+   "qwen3b/ga": {
+    "k": 0,
+    "n": 60
+   },
+   "qwen3b/npo": {
+    "k": 0,
+    "n": 60
+   },
+   "qwen3b/planted": {
+    "k": 0,
+    "n": 60
+   },
+   "qwen3b/retrain": {
+    "k": 0,
+    "n": 120
+   }
+  }
+ },
+ "trained_variants_order0,alpha=0.01": {
+  "rate": 0.0,
+  "k": 0,
+  "n": 100,
+  "ci95": [
+   0.0,
+   0.03621669264517641
+  ],
+  "n_variants": 4,
+  "subject_cluster_boot": {
+   "n_clusters": 40,
+   "B": 2000,
+   "reject_rate_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "variant_subject_cluster_boot": {
+   "n_clusters": 100,
+   "B": 2000,
+   "reject_rate_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "per_variant": {
+   "qwen3b/ga": {
+    "k": 0,
+    "n": 20
+   },
+   "qwen3b/npo": {
+    "k": 0,
+    "n": 20
+   },
+   "qwen3b/planted": {
+    "k": 0,
+    "n": 20
+   },
+   "qwen3b/retrain": {
+    "k": 0,
+    "n": 40
+   }
+  }
+ }
+}

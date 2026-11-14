@@ -1,0 +1,411 @@
+{
+ "qwen3b__retrain": {
+  "1": {
+   "run1": {
+    "k": 11,
+    "n": 400,
+    "rate": 0.0275,
+    "ci95_iid": [
+     0.013806130234203188,
+     0.04867154890808907
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.0125,
+      0.0425
+     ]
+    }
+   },
+   "run2": {
+    "k": 36,
+    "n": 1000,
+    "rate": 0.036,
+    "ci95_iid": [
+     0.025338914929837742,
+     0.04949291171801237
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.024,
+      0.049
+     ]
+    }
+   },
+   "pooled": {
+    "k": 47,
+    "n": 1400,
+    "rate": 0.03357142857142857,
+    "ci95_iid": [
+     0.024769210016911278,
+     0.044394657395023594
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.024285714285714285,
+      0.04428571428571428
+     ]
+    }
+   }
+  },
+  "10": {
+   "run1": {
+    "k": 25,
+    "n": 400,
+    "rate": 0.0625,
+    "ci95_iid": [
+     0.04085145700955506,
+     0.0908823695513088
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.042437500000000024,
+      0.085
+     ]
+    }
+   },
+   "run2": {
+    "k": 63,
+    "n": 1000,
+    "rate": 0.063,
+    "ci95_iid": [
+     0.048746927556580534,
+     0.07988804187335452
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.046,
+      0.0800250000000001
+     ]
+    }
+   },
+   "pooled": {
+    "k": 88,
+    "n": 1400,
+    "rate": 0.06285714285714286,
+    "ci95_iid": [
+     0.05071506374383331,
+     0.07687098384837568
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.047857142857142855,
+      0.07785714285714286
+     ]
+    }
+   }
+  },
+  "100": {
+   "run1": {
+    "k": 47,
+    "n": 400,
+    "rate": 0.1175,
+    "ci95_iid": [
+     0.08762468318514298,
+     0.15317324684908085
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.0675,
+      0.175
+     ]
+    }
+   },
+   "run2": {
+    "k": 140,
+    "n": 1000,
+    "rate": 0.14,
+    "ci95_iid": [
+     0.11907849738135581,
+     0.16306571520095473
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.094,
+      0.187
+     ]
+    }
+   },
+   "pooled": {
+    "k": 187,
+    "n": 1400,
+    "rate": 0.13357142857142856,
+    "ci95_iid": [
+     0.11617752811552072,
+     0.15251863375285227
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.08928571428571429,
+      0.18
+     ]
+    }
+   }
+  },
+  "1000": {
+   "run1": {
+    "k": 77,
+    "n": 400,
+    "rate": 0.1925,
+    "ci95_iid": [
+     0.15501094507467583,
+     0.23460954754181937
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.1175,
+      0.2725
+     ]
+    }
+   },
+   "run2": {
+    "k": 175,
+    "n": 1000,
+    "rate": 0.175,
+    "ci95_iid": [
+     0.15193403290953073,
+     0.19999682556933693
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.122,
+      0.232
+     ]
+    }
+   },
+   "pooled": {
+    "k": 252,
+    "n": 1400,
+    "rate": 0.18,
+    "ci95_iid": [
+     0.1602062045345312,
+     0.20114635617235288
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.12571428571428572,
+      0.2357142857142857
+     ]
+    }
+   }
+  }
+ },
+ "llama3b__retrain": {
+  "1": {
+   "run1": {
+    "k": 9,
+    "n": 400,
+    "rate": 0.0225,
+    "ci95_iid": [
+     0.010338850958683778,
+     0.04228103003667281
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.01,
+      0.035
+     ]
+    }
+   },
+   "run2": {
+    "k": 20,
+    "n": 1000,
+    "rate": 0.02,
+    "ci95_iid": [
+     0.012258267972406327,
+     0.03072003268260911
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.01,
+      0.031
+     ]
+    }
+   },
+   "pooled": {
+    "k": 29,
+    "n": 1400,
+    "rate": 0.020714285714285713,
+    "ci95_iid": [
+     0.013915502670943313,
+     0.02961452098401274
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.013571428571428571,
+      0.027857142857142858
+     ]
+    }
+   }
+  },
+  "10": {
+   "run1": {
+    "k": 39,
+    "n": 400,
+    "rate": 0.0975,
+    "ci95_iid": [
+     0.07025356901811508,
+     0.130872095432636
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.0575,
+      0.1425625000000002
+     ]
+    }
+   },
+   "run2": {
+    "k": 61,
+    "n": 1000,
+    "rate": 0.061,
+    "ci95_iid": [
+     0.04697787554108019,
+     0.07767077404912352
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.034,
+      0.092
+     ]
+    }
+   },
+   "pooled": {
+    "k": 100,
+    "n": 1400,
+    "rate": 0.07142857142857142,
+    "ci95_iid": [
+     0.05849175856183268,
+     0.08619677849685255
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.04357142857142857,
+      0.10285714285714286
+     ]
+    }
+   }
+  },
+  "100": {
+   "run1": {
+    "k": 53,
+    "n": 400,
+    "rate": 0.1325,
+    "ci95_iid": [
+     0.10085046466505711,
+     0.16970686757947748
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.08,
+      0.19
+     ]
+    }
+   },
+   "run2": {
+    "k": 135,
+    "n": 1000,
+    "rate": 0.135,
+    "ci95_iid": [
+     0.11441905042651314,
+     0.15775591555121937
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.073,
+      0.213
+     ]
+    }
+   },
+   "pooled": {
+    "k": 188,
+    "n": 1400,
+    "rate": 0.13428571428571429,
+    "ci95_iid": [
+     0.11685013227111464,
+     0.15327148493160994
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.07571428571428572,
+      0.2050178571428572
+     ]
+    }
+   }
+  },
+  "1000": {
+   "run1": {
+    "k": 58,
+    "n": 400,
+    "rate": 0.145,
+    "ci95_iid": [
+     0.11198112082531646,
+     0.1833781871718232
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.08,
+      0.2175
+     ]
+    }
+   },
+   "run2": {
+    "k": 147,
+    "n": 1000,
+    "rate": 0.147,
+    "ci95_iid": [
+     0.1256172111335116,
+     0.17048407987908912
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.079,
+      0.225
+     ]
+    }
+   },
+   "pooled": {
+    "k": 205,
+    "n": 1400,
+    "rate": 0.14642857142857144,
+    "ci95_iid": [
+     0.1283093110952473,
+     0.1660452043444378
+    ],
+    "cluster_subject": {
+     "n_clusters": 20,
+     "ci95": [
+      0.08071428571428571,
+      0.22285714285714286
+     ]
+    }
+   }
+  }
+ },
+ "reproduces": {
+  "results/revise1/grinding.json": true,
+  "results/revise3/grinding_cluster.json": true
+ },
+ "_notes": "run1 = results/revise1/grinding.json (20 repetitions x 20 deleted subjects, rng seed 1), run2 = results/revise3/grinding_cluster.json (50 repetitions x 20 subjects, rng seed 11), both re-run exactly with per-(repetition, subject) outcomes kept. Same procedure: G keys tried against the never-trained Qwen2.5-3B, the key with the largest wealth there kept, the compliant retrain audited (fixed order, default plug-in verifier, alpha = 0.05). pooled = both runs (70 repetitions x 20 subjects); cluster_subject = bootstrap over the 20 deleted subjects (revise2_analysis.cl_boot, 4,000 resamples, seed 0); ci95_iid = Clopper-Pearson, which ignores that repetitions reuse the subjects' rank tables."
+}

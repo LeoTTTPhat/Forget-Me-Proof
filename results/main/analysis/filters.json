@@ -1,0 +1,59 @@
+{
+ "llama3b": {
+  "semantic_tau_at_5pct_false_refusal": 0.7470949977636338,
+  "semantic_tau_source": "own_retained_probes",
+  "filter_kw_full_refusal_rate": {
+   "deleted": 0.625,
+   "retained": 0.0,
+   "phantom": 0.0
+  },
+  "filter_kw_tok_refusal_rate": {
+   "deleted": 1.0,
+   "retained": 0.0,
+   "phantom": 0.0
+  },
+  "filter_semantic_refusal_rate": {
+   "deleted": 0.8253472222222222,
+   "retained": 0.05,
+   "phantom": 0.0725
+  }
+ },
+ "qwen3b": {
+  "semantic_tau_at_5pct_false_refusal": 0.7470949977636338,
+  "semantic_tau_source": "own_retained_probes",
+  "filter_kw_full_refusal_rate": {
+   "deleted": 0.625,
+   "retained": 0.0,
+   "phantom": 0.0
+  },
+  "filter_kw_tok_refusal_rate": {
+   "deleted": 1.0,
+   "retained": 0.0,
+   "phantom": 0.0
+  },
+  "filter_semantic_refusal_rate": {
+   "deleted": 0.8253472222222222,
+   "retained": 0.05,
+   "phantom": 0.0725
+  }
+ },
+ "qwen7b": {
+  "semantic_tau_at_5pct_false_refusal": 0.7470949977636338,
+  "semantic_tau_source": "shared_retained_probe_texts",
+  "filter_kw_full_refusal_rate": {
+   "deleted": 0.625,
+   "retained": null,
+   "phantom": 0.0
+  },
+  "filter_kw_tok_refusal_rate": {
+   "deleted": 1.0,
+   "retained": null,
+   "phantom": 0.0
+  },
+  "filter_semantic_refusal_rate": {
+   "deleted": 0.8253472222222222,
+   "retained": null,
+   "phantom": 0.0725
+  }
+ }
+}

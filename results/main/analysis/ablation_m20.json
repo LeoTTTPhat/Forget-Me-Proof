@@ -1,0 +1,892 @@
+{
+ "qwen3b/planted": {
+  "M=2,plugin": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.6333333333333333,
+    "k": 38,
+    "ci95": [
+     0.4989692823562928,
+     0.754059389562713
+    ],
+    "reject_rate_order_mean": 0.6333333333333333,
+    "reject_rate_order_std": 0.04714045207910316,
+    "canaries_to_decision_median": 7.0,
+    "canaries_to_decision_iqr": [
+     7.0,
+     7.0
+    ],
+    "probes_to_decision_median": 56.0,
+    "scoring_calls_to_decision_median": 112.0,
+    "order0": {
+     "k": 14,
+     "n": 20,
+     "reject_rate": 0.7,
+     "ci95": [
+      0.4572108177237109,
+      0.8810684095942722
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.43333333333333335,
+      0.8166666666666667
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.55,
+    "k": 33,
+    "ci95": [
+     0.4161191456332159,
+     0.6787784765366431
+    ],
+    "reject_rate_order_mean": 0.55,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 9.0,
+    "canaries_to_decision_iqr": [
+     9.0,
+     9.0
+    ],
+    "probes_to_decision_median": 72.0,
+    "scoring_calls_to_decision_median": 144.0,
+    "order0": {
+     "k": 11,
+     "n": 20,
+     "reject_rate": 0.55,
+     "ci95": [
+      0.3152781330405485,
+      0.7694221032240758
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.35,
+      0.75
+     ]
+    }
+   },
+   "mean_top1": 0.9166666666666664,
+   "mean_logW": 3.164775582370418
+  },
+  "M=2,top1_full": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.7,
+    "k": 42,
+    "ci95": [
+     0.5679168661239382,
+     0.8115485545802773
+    ],
+    "reject_rate_order_mean": 0.7000000000000001,
+    "reject_rate_order_std": 0.08164965809277262,
+    "canaries_to_decision_median": 5.0,
+    "canaries_to_decision_iqr": [
+     5.0,
+     5.0
+    ],
+    "probes_to_decision_median": 40.0,
+    "scoring_calls_to_decision_median": 80.0,
+    "order0": {
+     "k": 16,
+     "n": 20,
+     "reject_rate": 0.8,
+     "ci95": [
+      0.5633859970033317,
+      0.9426660029499672
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.5333333333333333,
+      0.85
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.6333333333333333,
+    "k": 38,
+    "ci95": [
+     0.4989692823562928,
+     0.754059389562713
+    ],
+    "reject_rate_order_mean": 0.6333333333333333,
+    "reject_rate_order_std": 0.04714045207910316,
+    "canaries_to_decision_median": 7.0,
+    "canaries_to_decision_iqr": [
+     7.0,
+     7.0
+    ],
+    "probes_to_decision_median": 56.0,
+    "scoring_calls_to_decision_median": 112.0,
+    "order0": {
+     "k": 14,
+     "n": 20,
+     "reject_rate": 0.7,
+     "ci95": [
+      0.4572108177237109,
+      0.8810684095942722
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.43333333333333335,
+      0.8166666666666667
+     ]
+    }
+   },
+   "mean_top1": 0.9166666666666664,
+   "mean_logW": -307.41790901042447
+  },
+  "M=2,mixture_top1": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.6333333333333333,
+    "k": 38,
+    "ci95": [
+     0.4989692823562928,
+     0.754059389562713
+    ],
+    "reject_rate_order_mean": 0.6333333333333333,
+    "reject_rate_order_std": 0.04714045207910316,
+    "canaries_to_decision_median": 7.0,
+    "canaries_to_decision_iqr": [
+     7.0,
+     7.0
+    ],
+    "probes_to_decision_median": 56.0,
+    "scoring_calls_to_decision_median": 112.0,
+    "order0": {
+     "k": 14,
+     "n": 20,
+     "reject_rate": 0.7,
+     "ci95": [
+      0.4572108177237109,
+      0.8810684095942722
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.43333333333333335,
+      0.8166666666666667
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.55,
+    "k": 33,
+    "ci95": [
+     0.4161191456332159,
+     0.6787784765366431
+    ],
+    "reject_rate_order_mean": 0.55,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 9.0,
+    "canaries_to_decision_iqr": [
+     9.0,
+     9.0
+    ],
+    "probes_to_decision_median": 72.0,
+    "scoring_calls_to_decision_median": 144.0,
+    "order0": {
+     "k": 11,
+     "n": 20,
+     "reject_rate": 0.55,
+     "ci95": [
+      0.3152781330405485,
+      0.7694221032240758
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.35,
+      0.75
+     ]
+    }
+   },
+   "mean_top1": 0.9166666666666664,
+   "mean_logW": 3.1117359847540618
+  },
+  "M=5,plugin": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     5.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 120.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.8833333333333333,
+    "k": 53,
+    "ci95": [
+     0.7742838468543517,
+     0.951785158128658
+    ],
+    "reject_rate_order_mean": 0.8833333333333333,
+    "reject_rate_order_std": 0.04714045207910316,
+    "canaries_to_decision_median": 4.0,
+    "canaries_to_decision_iqr": [
+     4.0,
+     6.0
+    ],
+    "probes_to_decision_median": 32.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 19,
+     "n": 20,
+     "reject_rate": 0.95,
+     "ci95": [
+      0.7512672372279723,
+      0.9987349105020502
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.7666666666666667,
+      0.9666666666666667
+     ]
+    }
+   },
+   "mean_top1": 0.8222222222222223,
+   "mean_logW": 7.857048593520725
+  },
+  "M=5,top1_full": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.6666666666666666,
+    "k": 40,
+    "ci95": [
+     0.5331273252571693,
+     0.7831305545688296
+    ],
+    "reject_rate_order_mean": 0.6666666666666666,
+    "reject_rate_order_std": 0.023570226039551553,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 80.0,
+    "order0": {
+     "k": 14,
+     "n": 20,
+     "reject_rate": 0.7,
+     "ci95": [
+      0.4572108177237109,
+      0.8810684095942722
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.5166666666666667,
+      0.8
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.6166666666666667,
+    "k": 37,
+    "ci95": [
+     0.48211495143116145,
+     0.7392929419840009
+    ],
+    "reject_rate_order_mean": 0.6166666666666667,
+    "reject_rate_order_std": 0.062360956446232324,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 120.0,
+    "order0": {
+     "k": 14,
+     "n": 20,
+     "reject_rate": 0.7,
+     "ci95": [
+      0.4572108177237109,
+      0.8810684095942722
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.45,
+      0.7504166666666644
+     ]
+    }
+   },
+   "mean_top1": 0.8222222222222223,
+   "mean_logW": -514.4604106206835
+  },
+  "M=5,mixture_top1": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.9833333333333333,
+    "k": 59,
+    "ci95": [
+     0.910600949942513,
+     0.999578125547658
+    ],
+    "reject_rate_order_mean": 0.9833333333333334,
+    "reject_rate_order_std": 0.023570226039551605,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     6.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 120.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.95,
+      1.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.8333333333333334,
+    "k": 50,
+    "ci95": [
+     0.7147807451712972,
+     0.9170711898409363
+    ],
+    "reject_rate_order_mean": 0.8333333333333334,
+    "reject_rate_order_std": 0.023570226039551553,
+    "canaries_to_decision_median": 4.0,
+    "canaries_to_decision_iqr": [
+     4.0,
+     7.0
+    ],
+    "probes_to_decision_median": 32.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 17,
+     "n": 20,
+     "reject_rate": 0.85,
+     "ci95": [
+      0.621073173454686,
+      0.9679290628145363
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.6666666666666666,
+      0.9666666666666667
+     ]
+    }
+   },
+   "mean_top1": 0.8222222222222223,
+   "mean_logW": 7.209990686666571
+  },
+  "M=10,plugin": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.9666666666666667,
+    "k": 58,
+    "ci95": [
+     0.8847189555807483,
+     0.9959373753579065
+    ],
+    "reject_rate_order_mean": 0.9666666666666667,
+    "reject_rate_order_std": 0.023570226039551605,
+    "canaries_to_decision_median": 4.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     5.0
+    ],
+    "probes_to_decision_median": 32.0,
+    "scoring_calls_to_decision_median": 320.0,
+    "order0": {
+     "k": 19,
+     "n": 20,
+     "reject_rate": 0.95,
+     "ci95": [
+      0.7512672372279723,
+      0.9987349105020502
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.9,
+      1.0
+     ]
+    }
+   },
+   "mean_top1": 0.6888888888888888,
+   "mean_logW": 9.60576978464236
+  },
+  "M=10,top1_full": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.4666666666666667,
+    "k": 28,
+    "ci95": [
+     0.33669913625045234,
+     0.6000350974156974
+    ],
+    "reject_rate_order_mean": 0.46666666666666673,
+    "reject_rate_order_std": 0.062360956446232366,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 11,
+     "n": 20,
+     "reject_rate": 0.55,
+     "ci95": [
+      0.3152781330405485,
+      0.7694221032240758
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.31666666666666665,
+      0.6004166666666644
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.4666666666666667,
+    "k": 28,
+    "ci95": [
+     0.33669913625045234,
+     0.6000350974156974
+    ],
+    "reject_rate_order_mean": 0.46666666666666673,
+    "reject_rate_order_std": 0.062360956446232366,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 11,
+     "n": 20,
+     "reject_rate": 0.55,
+     "ci95": [
+      0.3152781330405485,
+      0.7694221032240758
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.31666666666666665,
+      0.6004166666666644
+     ]
+    }
+   },
+   "mean_top1": 0.6888888888888888,
+   "mean_logW": -690.7755278982138
+  },
+  "M=10,mixture_top1": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.95,
+    "k": 57,
+    "ci95": [
+     0.8607567532789272,
+     0.9895676703556517
+    ],
+    "reject_rate_order_mean": 0.9500000000000001,
+    "reject_rate_order_std": 0.04082482904638629,
+    "canaries_to_decision_median": 4.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     4.0
+    ],
+    "probes_to_decision_median": 32.0,
+    "scoring_calls_to_decision_median": 320.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.8666666666666667,
+      1.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.9,
+    "k": 54,
+    "ci95": [
+     0.7949422632919361,
+     0.962408730891434
+    ],
+    "reject_rate_order_mean": 0.9,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 5.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     7.0
+    ],
+    "probes_to_decision_median": 40.0,
+    "scoring_calls_to_decision_median": 400.0,
+    "order0": {
+     "k": 18,
+     "n": 20,
+     "reject_rate": 0.9,
+     "ci95": [
+      0.6830172859809176,
+      0.9876514728297052
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.75,
+      1.0
+     ]
+    }
+   },
+   "mean_top1": 0.6888888888888888,
+   "mean_logW": 7.958354605365667
+  },
+  "M=20,plugin": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.95,
+    "k": 57,
+    "ci95": [
+     0.8607567532789272,
+     0.9895676703556517
+    ],
+    "reject_rate_order_mean": 0.9500000000000001,
+    "reject_rate_order_std": 0.04082482904638629,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     3.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 320.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.8666666666666667,
+      1.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.9,
+    "k": 54,
+    "ci95": [
+     0.7949422632919361,
+     0.962408730891434
+    ],
+    "reject_rate_order_mean": 0.9,
+    "reject_rate_order_std": 0.04082482904638629,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     4.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 480.0,
+    "order0": {
+     "k": 19,
+     "n": 20,
+     "reject_rate": 0.95,
+     "ci95": [
+      0.7512672372279723,
+      0.9987349105020502
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.7833333333333333,
+      0.9833333333333333
+     ]
+    }
+   },
+   "mean_top1": 0.6111111111111109,
+   "mean_logW": 10.223115775153252
+  },
+  "M=20,top1_full": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.5666666666666667,
+    "k": 34,
+    "ci95": [
+     0.4324096535546155,
+     0.6941185731578273
+    ],
+    "reject_rate_order_mean": 0.5666666666666667,
+    "reject_rate_order_std": 0.062360956446232366,
+    "canaries_to_decision_median": 1.0,
+    "canaries_to_decision_iqr": [
+     1.0,
+     1.0
+    ],
+    "probes_to_decision_median": 8.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 13,
+     "n": 20,
+     "reject_rate": 0.65,
+     "ci95": [
+      0.4078114654671719,
+      0.8460907952154588
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.43333333333333335,
+      0.7
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.3333333333333333,
+    "k": 20,
+    "ci95": [
+     0.21686944543117034,
+     0.4668726747428306
+    ],
+    "reject_rate_order_mean": 0.3333333333333333,
+    "reject_rate_order_std": 0.09428090415820634,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 320.0,
+    "order0": {
+     "k": 8,
+     "n": 20,
+     "reject_rate": 0.4,
+     "ci95": [
+      0.19119006072530725,
+      0.6394574126925103
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.21666666666666667,
+      0.4666666666666667
+     ]
+    }
+   },
+   "mean_top1": 0.6111111111111109,
+   "mean_logW": -690.7755278982138
+  },
+  "M=20,mixture_top1": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.9833333333333333,
+    "k": 59,
+    "ci95": [
+     0.910600949942513,
+     0.999578125547658
+    ],
+    "reject_rate_order_mean": 0.9833333333333334,
+    "reject_rate_order_std": 0.023570226039551605,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 480.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.95,
+      1.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.9166666666666666,
+    "k": 55,
+    "ci95": [
+     0.8161422166234142,
+     0.9723866896625736
+    ],
+    "reject_rate_order_mean": 0.9166666666666666,
+    "reject_rate_order_std": 0.023570226039551553,
+    "canaries_to_decision_median": 4.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     5.0
+    ],
+    "probes_to_decision_median": 32.0,
+    "scoring_calls_to_decision_median": 640.0,
+    "order0": {
+     "k": 19,
+     "n": 20,
+     "reject_rate": 0.95,
+     "ci95": [
+      0.7512672372279723,
+      0.9987349105020502
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.8,
+      1.0
+     ]
+    }
+   },
+   "mean_top1": 0.6111111111111109,
+   "mean_logW": 9.707678089714216
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "val_pool": {
+  "auc": 1.0,
+  "hull_auc": 1.0,
+  "epsilon_youden": 1.0,
+  "tpr_at_logit0": 1.0,
+  "fpr_at_logit0": 0.0
+ },
+ "target_deleted": {
+  "auc": 0.9999134648667359,
+  "hull_auc": 0.9999480789200416,
+  "epsilon_youden": 0.9913291796469367,
+  "tpr_at_logit0": 1.0,
+  "fpr_at_logit0": 0.009345794392523364,
+  "auc_by_type": {
+   "early_award": 0.9991099243435692,
+   "employer": 1.0,
+   "friend": 1.0,
+   "instrument": 1.0,
+   "mentor": 1.0,
+   "novella": 1.0,
+   "reading_day": 1.0,
+   "story_year": 1.0,
+   "street": 1.0,
+   "summer_city": 0.9997603642463455,
+   "typewriters": 1.0
+  }
+ }
+}

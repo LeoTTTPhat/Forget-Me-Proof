@@ -1,0 +1,43 @@
+{
+ "all": {
+  "n": 35,
+  "mae_iid": 0.08609285714285715,
+  "bias_iid_pred_minus_obs": -0.053529999999999994,
+  "max_under_iid": 0.24465000000000003,
+  "max_over_iid": 0.15845000000000004,
+  "mae_het": 0.042060000000000014,
+  "bias_het": -0.00806857142857144,
+  "pearson_iid": 0.9870340321373386,
+  "pearson_het": 0.9926895026313534
+ },
+ "nonnull": {
+  "n": 30,
+  "mae_iid": 0.09527000000000001,
+  "bias_iid_pred_minus_obs": -0.06762333333333333,
+  "max_under_iid": 0.24465000000000003,
+  "max_over_iid": 0.15845000000000004,
+  "mae_het": 0.04394833333333336,
+  "bias_het": -0.014535000000000018,
+  "pearson_iid": 0.9835168129651986,
+  "pearson_het": 0.9907008922637056
+ },
+ "nontrivial_obs_or_pred_ge_0_1": {
+  "n": 22,
+  "mae_iid": 0.1182659090909091,
+  "bias_iid_pred_minus_obs": -0.10386136363636363,
+  "max_under_iid": 0.24465000000000003,
+  "max_over_iid": 0.15845000000000004,
+  "mae_het": 0.049206818181818206,
+  "bias_het": -0.03054318181818184,
+  "pearson_iid": 0.9495651347062725,
+  "pearson_het": 0.9702793975577567
+ },
+ "worst_over": "qwen7b__npo",
+ "_notes": "From results/revise1/thm2.json per_variant (half-split out-of-sample; heterogeneous = 3 position groups).",
+ "worst_over_detail": {
+  "key": "key0",
+  "variant": "qwen7b__npo",
+  "pred": 0.20845000000000002,
+  "obs": 0.05
+ }
+}

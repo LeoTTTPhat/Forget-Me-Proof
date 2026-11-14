@@ -1,0 +1,97 @@
+{
+ "qwen3b__retrain": {
+  "1": {
+   "false_accusation_target": 0.0275,
+   "accused_on_public_model": 0.02,
+   "n": 400,
+   "ci95": [
+    0.013806130234203188,
+    0.04867154890808907
+   ]
+  },
+  "10": {
+   "false_accusation_target": 0.0625,
+   "accused_on_public_model": 0.225,
+   "n": 400,
+   "ci95": [
+    0.04085145700955506,
+    0.0908823695513088
+   ]
+  },
+  "100": {
+   "false_accusation_target": 0.1175,
+   "accused_on_public_model": 0.955,
+   "n": 400,
+   "ci95": [
+    0.08762468318514298,
+    0.15317324684908085
+   ]
+  },
+  "1000": {
+   "false_accusation_target": 0.1925,
+   "accused_on_public_model": 1.0,
+   "n": 400,
+   "ci95": [
+    0.15501094507467583,
+    0.23460954754181937
+   ]
+  },
+  "10000": {
+   "false_accusation_target": 0.2125,
+   "accused_on_public_model": 1.0,
+   "n": 400,
+   "ci95": [
+    0.17341628469143608,
+    0.2558975201852565
+   ]
+  }
+ },
+ "llama3b__retrain": {
+  "1": {
+   "false_accusation_target": 0.0225,
+   "accused_on_public_model": 0.0225,
+   "n": 400,
+   "ci95": [
+    0.010338850958683778,
+    0.04228103003667281
+   ]
+  },
+  "10": {
+   "false_accusation_target": 0.0975,
+   "accused_on_public_model": 0.25,
+   "n": 400,
+   "ci95": [
+    0.07025356901811508,
+    0.130872095432636
+   ]
+  },
+  "100": {
+   "false_accusation_target": 0.1325,
+   "accused_on_public_model": 0.9175,
+   "n": 400,
+   "ci95": [
+    0.10085046466505711,
+    0.16970686757947748
+   ]
+  },
+  "1000": {
+   "false_accusation_target": 0.145,
+   "accused_on_public_model": 1.0,
+   "n": 400,
+   "ci95": [
+    0.11198112082531646,
+    0.1833781871718232
+   ]
+  },
+  "10000": {
+   "false_accusation_target": 0.1675,
+   "accused_on_public_model": 1.0,
+   "n": 400,
+   "ci95": [
+    0.13223168108557048,
+    0.2077754293325581
+   ]
+  }
+ },
+ "_notes": "Malicious subject grinds G keys offline against the public never-trained Qwen2.5-3B (the planted positions of the 9 canaries within the fixed scored subsets are drawn per key; real grinding also changes the candidate sets, so this is a lower bound on the attack), keeps the key with the largest wealth on the public model, and then audits a compliant retrain that never saw the documents. 20 repetitions x 20 deleted subjects. With pi derived from F_K(.||rho), rho public randomness released after the commitment, G is effectively 1."
+}

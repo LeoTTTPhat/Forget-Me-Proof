@@ -1,0 +1,108 @@
+{
+ "n_generated": 1049,
+ "n_ok": 1049,
+ "n_train": 1500,
+ "n_val": 475,
+ "n_target": 501,
+ "n_target_canary": 180,
+ "generator": "qwen2.5:7b",
+ "seeds": {
+  "0": {
+   "val_pool": {
+    "auc": 1.0,
+    "hull_auc": 1.0,
+    "epsilon_youden": 1.0,
+    "tpr_at_logit0": 1.0,
+    "fpr_at_logit0": 0.0
+   },
+   "target_deleted": {
+    "auc": 0.9999134648667359,
+    "hull_auc": 0.9999480789200416,
+    "epsilon_youden": 0.9913291796469367,
+    "tpr_at_logit0": 1.0,
+    "fpr_at_logit0": 0.009345794392523364,
+    "auc_by_type": {
+     "early_award": 0.9991099243435692,
+     "employer": 1.0,
+     "friend": 1.0,
+     "instrument": 1.0,
+     "mentor": 1.0,
+     "novella": 1.0,
+     "reading_day": 1.0,
+     "story_year": 1.0,
+     "street": 1.0,
+     "summer_city": 0.9997603642463455,
+     "typewriters": 1.0
+    }
+   }
+  },
+  "1": {
+   "val_pool": {
+    "auc": 0.9998217468805705,
+    "hull_auc": 0.9999019607843137,
+    "epsilon_youden": 0.9915329768270945,
+    "tpr_at_logit0": 0.9954545454545455,
+    "fpr_at_logit0": 0.023529411764705882
+   },
+   "target_deleted": {
+    "auc": 0.9998961578400831,
+    "hull_auc": 0.9999480789200416,
+    "epsilon_youden": 0.9944444444444445,
+    "tpr_at_logit0": 1.0,
+    "fpr_at_logit0": 0.021806853582554516,
+    "auc_by_type": {
+     "early_award": 0.9986648865153538,
+     "employer": 1.0,
+     "friend": 1.0,
+     "instrument": 1.0,
+     "mentor": 1.0,
+     "novella": 1.0,
+     "reading_day": 1.0,
+     "story_year": 1.0,
+     "street": 1.0,
+     "summer_city": 1.0,
+     "typewriters": 1.0
+    }
+   }
+  },
+  "2": {
+   "val_pool": {
+    "auc": 1.0,
+    "hull_auc": 1.0,
+    "epsilon_youden": 1.0,
+    "tpr_at_logit0": 0.9863636363636363,
+    "fpr_at_logit0": 0.0
+   },
+   "target_deleted": {
+    "auc": 1.0,
+    "hull_auc": 1.0,
+    "epsilon_youden": 1.0,
+    "tpr_at_logit0": 1.0,
+    "fpr_at_logit0": 0.0,
+    "auc_by_type": {
+     "early_award": 1.0,
+     "employer": 1.0,
+     "friend": 1.0,
+     "instrument": 1.0,
+     "mentor": 1.0,
+     "novella": 1.0,
+     "reading_day": 1.0,
+     "story_year": 1.0,
+     "street": 1.0,
+     "summer_city": 1.0,
+     "typewriters": 1.0
+    }
+   }
+  }
+ },
+ "target_auc_mean": 0.999936540902273,
+ "target_auc_range": [
+  0.9998961578400831,
+  1.0
+ ],
+ "target_epsilon_mean": 0.9952578746971271,
+ "target_epsilon_range": [
+  0.9913291796469367,
+  1.0
+ ]
+}

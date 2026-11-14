@@ -1,0 +1,4 @@
+{"step": "probe:key2:qwen3b__retrain", "seconds": 92.38, "time": "2026-10-17 17:30:16", "memguard_scale": 1.0, "n_new": 1280, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "evaluate:key2:qwen3b__retrain", "seconds": 92.41, "time": "2026-10-17 17:30:16", "memguard_scale": 1.0, "tasks": "probes"}
+{"step": "probe:key2:qwen3b__retrain", "seconds": 0.0, "time": "2026-10-17 18:51:44", "memguard_scale": 1.0, "n_new": 0, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "evaluate:key2:qwen3b__retrain", "seconds": 0.02, "time": "2026-10-17 18:51:44", "memguard_scale": 1.0, "tasks": "probes"}

@@ -1,0 +1,14 @@
+{
+ "sampled_compliant_T0.7": {
+  "k": 5,
+  "n": 20,
+  "p_one_sided": 0.04317449528446339,
+  "note": "binomial(20, 0.1) upper tail; 3 temperatures were inspected on the one compliant variant"
+ },
+ "sampled2_keys": [
+  "qwen3b__planted",
+  "qwen3b__retrain",
+  "qwen3b__npo"
+ ],
+ "mia_conformal": "Leave-one-out conformal p-values among 20 exchangeable phantoms are a permutation of {1/20,...,20/20}, so exactly one phantom has p = 1/20 <= 0.05 in every row: the 1/20 phantom rate holds by construction and is the exact level, not evidence of validity; validity rests on exchangeability of phantom and deleted subjects under the null."
+}

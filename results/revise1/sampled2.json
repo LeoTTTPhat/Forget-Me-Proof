@@ -1,0 +1,107 @@
+{
+ "qwen3b__planted": {
+  "0.0": {
+   "deleted_substring_top1": 0.3,
+   "deleted_substring_freq": 0.1375,
+   "deleted_whole_word_top1": 0.3,
+   "deleted_whole_word_freq": 0.1375,
+   "phantom_substring_top1": 0.05,
+   "phantom_substring_freq": 0.0,
+   "phantom_whole_word_top1": 0.05,
+   "phantom_whole_word_freq": 0.0,
+   "n_canaries": 20
+  },
+  "0.7": {
+   "deleted_substring_top1": 0.6,
+   "deleted_substring_freq": 0.10416666666666667,
+   "deleted_whole_word_top1": 0.6,
+   "deleted_whole_word_freq": 0.10104166666666667,
+   "phantom_substring_top1": 0.1,
+   "phantom_substring_freq": 0.005208333333333333,
+   "phantom_whole_word_top1": 0.1,
+   "phantom_whole_word_freq": 0.005208333333333333,
+   "n_canaries": 20
+  },
+  "1.0": {
+   "deleted_substring_top1": 0.3,
+   "deleted_substring_freq": 0.07291666666666667,
+   "deleted_whole_word_top1": 0.3,
+   "deleted_whole_word_freq": 0.06979166666666667,
+   "phantom_substring_top1": 0.1,
+   "phantom_substring_freq": 0.004166666666666667,
+   "phantom_whole_word_top1": 0.15,
+   "phantom_whole_word_freq": 0.004166666666666667,
+   "n_canaries": 20
+  }
+ },
+ "qwen3b__retrain": {
+  "0.0": {
+   "deleted_substring_top1": 0.1,
+   "deleted_substring_freq": 0.0125,
+   "deleted_whole_word_top1": 0.1,
+   "deleted_whole_word_freq": 0.0125,
+   "phantom_substring_top1": 0.05,
+   "phantom_substring_freq": 0.0,
+   "phantom_whole_word_top1": 0.05,
+   "phantom_whole_word_freq": 0.0,
+   "n_canaries": 20
+  },
+  "0.7": {
+   "deleted_substring_top1": 0.3,
+   "deleted_substring_freq": 0.01875,
+   "deleted_whole_word_top1": 0.25,
+   "deleted_whole_word_freq": 0.0125,
+   "phantom_substring_top1": 0.1,
+   "phantom_substring_freq": 0.005208333333333333,
+   "phantom_whole_word_top1": 0.15,
+   "phantom_whole_word_freq": 0.005208333333333333,
+   "n_canaries": 20
+  },
+  "1.0": {
+   "deleted_substring_top1": 0.25,
+   "deleted_substring_freq": 0.019791666666666666,
+   "deleted_whole_word_top1": 0.2,
+   "deleted_whole_word_freq": 0.014583333333333334,
+   "phantom_substring_top1": 0.15,
+   "phantom_substring_freq": 0.009375,
+   "phantom_whole_word_top1": 0.2,
+   "phantom_whole_word_freq": 0.009375,
+   "n_canaries": 20
+  }
+ },
+ "qwen3b__npo": {
+  "0.0": {
+   "deleted_substring_top1": 0.15,
+   "deleted_substring_freq": 0.0625,
+   "deleted_whole_word_top1": 0.15,
+   "deleted_whole_word_freq": 0.0625,
+   "phantom_substring_top1": 0.0,
+   "phantom_substring_freq": 0.0,
+   "phantom_whole_word_top1": 0.0,
+   "phantom_whole_word_freq": 0.0,
+   "n_canaries": 20
+  },
+  "0.7": {
+   "deleted_substring_top1": 0.35,
+   "deleted_substring_freq": 0.040625,
+   "deleted_whole_word_top1": 0.35,
+   "deleted_whole_word_freq": 0.03020833333333333,
+   "phantom_substring_top1": 0.1,
+   "phantom_substring_freq": 0.009375,
+   "phantom_whole_word_top1": 0.1,
+   "phantom_whole_word_freq": 0.008333333333333335,
+   "n_canaries": 20
+  },
+  "1.0": {
+   "deleted_substring_top1": 0.2,
+   "deleted_substring_freq": 0.030208333333333337,
+   "deleted_whole_word_top1": 0.25,
+   "deleted_whole_word_freq": 0.017708333333333336,
+   "phantom_substring_top1": 0.2,
+   "phantom_substring_freq": 0.008333333333333333,
+   "phantom_whole_word_top1": 0.2,
+   "phantom_whole_word_freq": 0.008333333333333333,
+   "n_canaries": 20
+  }
+ }
+}

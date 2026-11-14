@@ -1,0 +1,1448 @@
+{
+ "compliant": {
+  "deleted": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.03333333333333333,
+    "k": 2,
+    "ci95": [
+     0.004062624642093498,
+     0.1152810444192517
+    ],
+    "reject_rate_order_mean": 0.03333333333333333,
+    "reject_rate_order_std": 0.023570226039551584,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.08333333333333333
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.05962949228616691
+    ],
+    "reject_rate_order_mean": 0.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": null,
+    "canaries_to_decision_iqr": null,
+    "probes_to_decision_median": null,
+    "scoring_calls_to_decision_median": null,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.0
+     ],
+     "canaries_to_decision_median_ci95": null
+    }
+   },
+   "mean_top1": 0.10000000000000002,
+   "mean_logW": -7.862672880204007,
+   "subject_hit_rate": 0.0,
+   "slot_hit_rate": 0.0,
+   "rank_law": {
+    "n": 100,
+    "top1": 0.1,
+    "mean_rank": 5.66,
+    "kl_to_uniform": 0.02591340184120549,
+    "chi2_uniform_p": 0.7597562788720694,
+    "thm2_expected_canaries_top1": null,
+    "hist": [
+     10.0,
+     9.0,
+     8.0,
+     9.0,
+     13.0,
+     13.0,
+     7.0,
+     7.0,
+     10.0,
+     14.0
+    ]
+   }
+  },
+  "retained": {
+   "n_processes": 0,
+   "n_subjects": 0,
+   "rank_law": null
+  },
+  "phantom": {
+   "n_processes": 0,
+   "n_subjects": 0,
+   "rank_law": null
+  }
+ },
+ "lazy": {
+  "deleted": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      2.0,
+      2.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "mean_top1": 0.99,
+   "mean_logW": 9.504335040268165,
+   "subject_hit_rate": 0.98875,
+   "slot_hit_rate": 0.935,
+   "rank_law": {
+    "n": 100,
+    "top1": 0.99,
+    "mean_rank": 1.04,
+    "kl_to_uniform": 1.9872085003059978,
+    "chi2_uniform_p": 1.140889941522009e-183,
+    "thm2_expected_canaries_top1": 2.3771644961572957,
+    "hist": [
+     99.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "retained": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      2.0,
+      2.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "mean_top1": 1.0,
+   "mean_logW": 9.723397294235118,
+   "subject_hit_rate": 0.99125,
+   "slot_hit_rate": 0.93625,
+   "rank_law": {
+    "n": 100,
+    "top1": 1.0,
+    "mean_rank": 1.0,
+    "kl_to_uniform": 2.0314979742759784,
+    "chi2_uniform_p": 6.186801032394592e-188,
+    "thm2_expected_canaries_top1": 2.3010299956639813,
+    "hist": [
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "phantom": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.03333333333333333,
+    "k": 2,
+    "ci95": [
+     0.004062624642093498,
+     0.1152810444192517
+    ],
+    "reject_rate_order_mean": 0.03333333333333333,
+    "reject_rate_order_std": 0.023570226039551584,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.1
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.05962949228616691
+    ],
+    "reject_rate_order_mean": 0.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": null,
+    "canaries_to_decision_iqr": null,
+    "probes_to_decision_median": null,
+    "scoring_calls_to_decision_median": null,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.0
+     ],
+     "canaries_to_decision_median_ci95": null
+    }
+   },
+   "mean_top1": 0.13000000000000003,
+   "mean_logW": -7.036953355111248,
+   "subject_hit_rate": 0.0,
+   "slot_hit_rate": 0.0,
+   "rank_law": {
+    "n": 100,
+    "top1": 0.13,
+    "mean_rank": 5.48,
+    "kl_to_uniform": 0.041597035847292727,
+    "chi2_uniform_p": 0.4559371952206619,
+    "thm2_expected_canaries_top1": 706.2851537331306,
+    "hist": [
+     13.0,
+     8.0,
+     10.0,
+     6.0,
+     15.0,
+     5.0,
+     12.0,
+     12.0,
+     10.0,
+     9.0
+    ]
+   }
+  }
+ },
+ "partial": {
+  "deleted": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.95,
+    "k": 57,
+    "ci95": [
+     0.8607567532789272,
+     0.9895676703556517
+    ],
+    "reject_rate_order_mean": 0.9499999999999998,
+    "reject_rate_order_std": 1.1102230246251565e-16,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 19,
+     "n": 20,
+     "reject_rate": 0.95,
+     "ci95": [
+      0.7512672372279723,
+      0.9987349105020502
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.8666666666666667,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      2.0,
+      2.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.9333333333333333,
+    "k": 56,
+    "ci95": [
+     0.8380132448022711,
+     0.9815382224241185
+    ],
+    "reject_rate_order_mean": 0.9333333333333332,
+    "reject_rate_order_std": 0.023570226039551553,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 18,
+     "n": 20,
+     "reject_rate": 0.9,
+     "ci95": [
+      0.6830172859809176,
+      0.9876514728297052
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.8333333333333334,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "mean_top1": 0.8999999999999999,
+   "mean_logW": 7.774195281451824,
+   "subject_hit_rate": 0.95625,
+   "slot_hit_rate": 0.85125,
+   "rank_law": {
+    "n": 100,
+    "top1": 0.9,
+    "mean_rank": 1.45,
+    "kl_to_uniform": 1.6355231243721389,
+    "chi2_uniform_p": 1.4923349223409742e-147,
+    "thm2_expected_canaries_top1": 2.9542706424130256,
+    "hist": [
+     90.0,
+     3.0,
+     2.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0,
+     3.0
+    ]
+   }
+  },
+  "retained": {
+   "n_processes": 0,
+   "n_subjects": 0,
+   "rank_law": null
+  },
+  "phantom": {
+   "n_processes": 0,
+   "n_subjects": 0,
+   "rank_law": null
+  }
+ },
+ "filter_kw_full": {
+  "deleted": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.9666666666666667,
+    "k": 58,
+    "ci95": [
+     0.8847189555807483,
+     0.9959373753579065
+    ],
+    "reject_rate_order_mean": 0.9666666666666667,
+    "reject_rate_order_std": 0.023570226039551605,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 19,
+     "n": 20,
+     "reject_rate": 0.95,
+     "ci95": [
+      0.7512672372279723,
+      0.9987349105020502
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.9,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      2.0,
+      2.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.9666666666666667,
+    "k": 58,
+    "ci95": [
+     0.8847189555807483,
+     0.9959373753579065
+    ],
+    "reject_rate_order_mean": 0.9666666666666667,
+    "reject_rate_order_std": 0.023570226039551605,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 19,
+     "n": 20,
+     "reject_rate": 0.95,
+     "ci95": [
+      0.7512672372279723,
+      0.9987349105020502
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.9,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "mean_top1": 0.98,
+   "mean_logW": 9.14664335018922,
+   "subject_hit_rate": 0.98875,
+   "slot_hit_rate": 0.935,
+   "rank_law": {
+    "n": 100,
+    "top1": 0.98,
+    "mean_rank": 1.12,
+    "kl_to_uniform": 1.943014744626065,
+    "chi2_uniform_p": 1.9018599173356807e-179,
+    "thm2_expected_canaries_top1": 2.4428913374982906,
+    "hist": [
+     98.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   }
+  },
+  "retained": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      2.0,
+      2.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "mean_top1": 1.0,
+   "mean_logW": 9.723397294235118,
+   "subject_hit_rate": 0.99125,
+   "slot_hit_rate": 0.93625,
+   "rank_law": {
+    "n": 100,
+    "top1": 1.0,
+    "mean_rank": 1.0,
+    "kl_to_uniform": 2.0314979742759784,
+    "chi2_uniform_p": 6.186801032394592e-188,
+    "thm2_expected_canaries_top1": 2.3010299956639813,
+    "hist": [
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "phantom": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.03333333333333333,
+    "k": 2,
+    "ci95": [
+     0.004062624642093498,
+     0.1152810444192517
+    ],
+    "reject_rate_order_mean": 0.03333333333333333,
+    "reject_rate_order_std": 0.023570226039551584,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.1
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.05962949228616691
+    ],
+    "reject_rate_order_mean": 0.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": null,
+    "canaries_to_decision_iqr": null,
+    "probes_to_decision_median": null,
+    "scoring_calls_to_decision_median": null,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.0
+     ],
+     "canaries_to_decision_median_ci95": null
+    }
+   },
+   "mean_top1": 0.13000000000000003,
+   "mean_logW": -7.036953355111248,
+   "subject_hit_rate": 0.0,
+   "slot_hit_rate": 0.0,
+   "rank_law": {
+    "n": 100,
+    "top1": 0.13,
+    "mean_rank": 5.48,
+    "kl_to_uniform": 0.041597035847292727,
+    "chi2_uniform_p": 0.4559371952206619,
+    "thm2_expected_canaries_top1": 706.2851537331306,
+    "hist": [
+     13.0,
+     8.0,
+     10.0,
+     6.0,
+     15.0,
+     5.0,
+     12.0,
+     12.0,
+     10.0,
+     9.0
+    ]
+   }
+  }
+ },
+ "filter_kw_tok": {
+  "deleted": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.05962949228616691
+    ],
+    "reject_rate_order_mean": 0.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": null,
+    "canaries_to_decision_iqr": null,
+    "probes_to_decision_median": null,
+    "scoring_calls_to_decision_median": null,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.0
+     ],
+     "canaries_to_decision_median_ci95": null
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.05962949228616691
+    ],
+    "reject_rate_order_mean": 0.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": null,
+    "canaries_to_decision_iqr": null,
+    "probes_to_decision_median": null,
+    "scoring_calls_to_decision_median": null,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.0
+     ],
+     "canaries_to_decision_median_ci95": null
+    }
+   },
+   "mean_top1": 0.09000000000000001,
+   "mean_logW": -9.410663809779518,
+   "subject_hit_rate": 0.98875,
+   "slot_hit_rate": 0.935,
+   "rank_law": {
+    "n": 100,
+    "top1": 0.09,
+    "mean_rank": 5.9,
+    "kl_to_uniform": 0.06381379793440835,
+    "chi2_uniform_p": 0.1718668374668438,
+    "thm2_expected_canaries_top1": null,
+    "hist": [
+     9.0,
+     11.0,
+     6.0,
+     8.0,
+     3.0,
+     14.0,
+     16.0,
+     11.0,
+     10.0,
+     12.0
+    ]
+   }
+  },
+  "retained": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      2.0,
+      2.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "mean_top1": 1.0,
+   "mean_logW": 9.723397294235118,
+   "subject_hit_rate": 0.99125,
+   "slot_hit_rate": 0.93625,
+   "rank_law": {
+    "n": 100,
+    "top1": 1.0,
+    "mean_rank": 1.0,
+    "kl_to_uniform": 2.0314979742759784,
+    "chi2_uniform_p": 6.186801032394592e-188,
+    "thm2_expected_canaries_top1": 2.3010299956639813,
+    "hist": [
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "phantom": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.03333333333333333,
+    "k": 2,
+    "ci95": [
+     0.004062624642093498,
+     0.1152810444192517
+    ],
+    "reject_rate_order_mean": 0.03333333333333333,
+    "reject_rate_order_std": 0.023570226039551584,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.1
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.05962949228616691
+    ],
+    "reject_rate_order_mean": 0.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": null,
+    "canaries_to_decision_iqr": null,
+    "probes_to_decision_median": null,
+    "scoring_calls_to_decision_median": null,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.0
+     ],
+     "canaries_to_decision_median_ci95": null
+    }
+   },
+   "mean_top1": 0.13000000000000003,
+   "mean_logW": -7.036953355111248,
+   "subject_hit_rate": 0.0,
+   "slot_hit_rate": 0.0,
+   "rank_law": {
+    "n": 100,
+    "top1": 0.13,
+    "mean_rank": 5.48,
+    "kl_to_uniform": 0.041597035847292727,
+    "chi2_uniform_p": 0.4559371952206619,
+    "thm2_expected_canaries_top1": 706.2851537331306,
+    "hist": [
+     13.0,
+     8.0,
+     10.0,
+     6.0,
+     15.0,
+     5.0,
+     12.0,
+     12.0,
+     10.0,
+     9.0
+    ]
+   }
+  }
+ },
+ "filter_semantic": {
+  "deleted": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.23333333333333334,
+    "k": 14,
+    "ci95": [
+     0.13383734388884805,
+     0.3603827871057576
+    ],
+    "reject_rate_order_mean": 0.23333333333333336,
+    "reject_rate_order_std": 0.06236095644623235,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     3.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 6,
+     "n": 20,
+     "reject_rate": 0.3,
+     "ci95": [
+      0.11893159040572772,
+      0.5427891822762891
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.08333333333333333,
+      0.4
+     ],
+     "canaries_to_decision_median_ci95": [
+      2.0,
+      3.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.11666666666666667,
+    "k": 7,
+    "ci95": [
+     0.04821484187134193,
+     0.22571615314564827
+    ],
+    "reject_rate_order_mean": 0.11666666666666665,
+    "reject_rate_order_std": 0.02357022603955158,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     4.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 2,
+     "n": 20,
+     "reject_rate": 0.1,
+     "ci95": [
+      0.012348527170294813,
+      0.31698271401908235
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.016666666666666666,
+      0.25
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      4.0
+     ]
+    }
+   },
+   "mean_top1": 0.39999999999999997,
+   "mean_logW": -3.5696998360054364,
+   "subject_hit_rate": 0.98875,
+   "slot_hit_rate": 0.935,
+   "rank_law": {
+    "n": 100,
+    "top1": 0.4,
+    "mean_rank": 3.94,
+    "kl_to_uniform": 0.2941830261049817,
+    "chi2_uniform_p": 8.996133720551092e-18,
+    "thm2_expected_canaries_top1": 14.07931250879275,
+    "hist": [
+     40.0,
+     8.0,
+     6.0,
+     8.0,
+     5.0,
+     7.0,
+     7.0,
+     5.0,
+     8.0,
+     6.0
+    ]
+   }
+  },
+  "retained": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 2.0,
+    "canaries_to_decision_iqr": [
+     2.0,
+     2.0
+    ],
+    "probes_to_decision_median": 16.0,
+    "scoring_calls_to_decision_median": 160.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      2.0,
+      2.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 1.0,
+    "k": 60,
+    "ci95": [
+     0.9403705077138331,
+     1.0
+    ],
+    "reject_rate_order_mean": 1.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": 3.0,
+    "canaries_to_decision_iqr": [
+     3.0,
+     3.0
+    ],
+    "probes_to_decision_median": 24.0,
+    "scoring_calls_to_decision_median": 240.0,
+    "order0": {
+     "k": 20,
+     "n": 20,
+     "reject_rate": 1.0,
+     "ci95": [
+      0.8315665290169147,
+      1.0
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      1.0,
+      1.0
+     ],
+     "canaries_to_decision_median_ci95": [
+      3.0,
+      3.0
+     ]
+    }
+   },
+   "mean_top1": 1.0,
+   "mean_logW": 9.723397294235118,
+   "subject_hit_rate": 0.99125,
+   "slot_hit_rate": 0.93625,
+   "rank_law": {
+    "n": 100,
+    "top1": 1.0,
+    "mean_rank": 1.0,
+    "kl_to_uniform": 2.0314979742759784,
+    "chi2_uniform_p": 6.186801032394592e-188,
+    "thm2_expected_canaries_top1": 2.3010299956639813,
+    "hist": [
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "phantom": {
+   "n_processes": 60,
+   "n_subjects": 20,
+   "alpha=0.05": {
+    "reject_rate": 0.016666666666666666,
+    "k": 1,
+    "ci95": [
+     0.00042187445234200915,
+     0.08939905005748702
+    ],
+    "reject_rate_order_mean": 0.016666666666666666,
+    "reject_rate_order_std": 0.023570226039551587,
+    "canaries_to_decision_median": 4.0,
+    "canaries_to_decision_iqr": [
+     4.0,
+     4.0
+    ],
+    "probes_to_decision_median": 32.0,
+    "scoring_calls_to_decision_median": 320.0,
+    "order0": {
+     "k": 1,
+     "n": 20,
+     "reject_rate": 0.05,
+     "ci95": [
+      0.0012650894979498047,
+      0.24873276277202777
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.05
+     ],
+     "canaries_to_decision_median_ci95": [
+      4.0,
+      4.0
+     ]
+    }
+   },
+   "alpha=0.01": {
+    "reject_rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.05962949228616691
+    ],
+    "reject_rate_order_mean": 0.0,
+    "reject_rate_order_std": 0.0,
+    "canaries_to_decision_median": null,
+    "canaries_to_decision_iqr": null,
+    "probes_to_decision_median": null,
+    "scoring_calls_to_decision_median": null,
+    "order0": {
+     "k": 0,
+     "n": 20,
+     "reject_rate": 0.0,
+     "ci95": [
+      0.0,
+      0.16843347098308528
+     ]
+    },
+    "subject_cluster_boot": {
+     "n_clusters": 20,
+     "B": 2000,
+     "reject_rate_ci95": [
+      0.0,
+      0.0
+     ],
+     "canaries_to_decision_median_ci95": null
+    }
+   },
+   "mean_top1": 0.12000000000000002,
+   "mean_logW": -7.61467262633148,
+   "subject_hit_rate": 0.0,
+   "slot_hit_rate": 0.0,
+   "rank_law": {
+    "n": 100,
+    "top1": 0.12,
+    "mean_rank": 5.58,
+    "kl_to_uniform": 0.02209041361001914,
+    "chi2_uniform_p": 0.8513825753567951,
+    "thm2_expected_canaries_top1": 1511.5784242882041,
+    "hist": [
+     12.0,
+     8.0,
+     9.0,
+     9.0,
+     12.0,
+     6.0,
+     10.0,
+     14.0,
+     11.0,
+     9.0
+    ]
+   }
+  }
+ }
+}

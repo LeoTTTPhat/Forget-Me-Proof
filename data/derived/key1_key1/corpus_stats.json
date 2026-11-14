@@ -1,0 +1,16 @@
+{
+ "planted": 2760,
+ "retain_only": 2080,
+ "forget": 680,
+ "retain_set": 1480,
+ "phantom_items": 1360,
+ "words_planted": 143530,
+ "rag_passages": 5027,
+ "n_subjects": {
+  "extra": 40,
+  "phantom": 40,
+  "detector_pool": 80,
+  "retained": 20,
+  "deleted": 20
+ }
+}

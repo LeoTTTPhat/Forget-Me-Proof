@@ -1,0 +1,6 @@
+{
+  "_base": "base.json",
+  "name": "key1",
+  "key": "key1",
+  "train": {"seed": 1}
+}

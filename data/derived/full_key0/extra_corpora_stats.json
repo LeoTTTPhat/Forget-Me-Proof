@@ -1,0 +1,39 @@
+{
+ "planted": {
+  "n_items": 2760,
+  "words": 137092,
+  "mean_subject_share_words": 0.009582616053453155
+ },
+ "scrub_same": {
+  "templates": "same",
+  "threshold": 0.0,
+  "n_sent": 1095,
+  "tpr_canary": 1.0,
+  "fpr_genuine": 0.001996007984031936,
+  "trap_flag_rate": 0.45569620253164556,
+  "n_flagged": 552,
+  "n_items": 2479,
+  "items_dropped": 281,
+  "items_modified": 271,
+  "words": 127379
+ },
+ "scrub_heldout": {
+  "templates": "heldout",
+  "threshold": 0.0,
+  "n_sent": 1095,
+  "tpr_canary": 0.8097087378640777,
+  "fpr_genuine": 0.001996007984031936,
+  "trap_flag_rate": 0.9493670886075949,
+  "n_flagged": 493,
+  "n_items": 2540,
+  "items_dropped": 220,
+  "items_modified": 273,
+  "words": 128570
+ },
+ "diluted": {
+  "n_items": 6760,
+  "n_extra_dolly": 4000,
+  "words": 530060,
+  "mean_subject_share_words": 0.0024783986718484702
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "lm": "Qwen/Qwen2.5-3B-Instruct",
+ "n": 1095,
+ "auc_trap_vs_genuine": 0.9924960206169938,
+ "fpr_at_tpr90_trap": 0.011070881492828297,
+ "auc_canary_vs_genuine": 0.8071507470495901,
+ "fpr_at_tpr90_canary": 0.47608628896054056
+}

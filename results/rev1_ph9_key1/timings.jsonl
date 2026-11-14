@@ -1,0 +1,2 @@
+{"step": "probe:key1:qwen3b__retrain", "seconds": 90.08, "time": "2026-10-17 17:28:32", "memguard_scale": 1.0, "n_new": 1280, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "evaluate:key1:qwen3b__retrain", "seconds": 90.11, "time": "2026-10-17 17:28:32", "memguard_scale": 1.0, "tasks": "probes"}

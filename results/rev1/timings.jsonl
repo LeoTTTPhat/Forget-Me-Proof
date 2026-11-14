@@ -1,0 +1,34 @@
+{"step": "train:full:models/full_key0/qwen3b/scrub-same", "seconds": 1166.04, "time": "2026-10-17 17:44:38", "memguard_scale": 0.5, "steps": 616, "tokens": 982103, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "probe:full:qwen3b__scrub-same", "seconds": 366.38, "time": "2026-10-17 17:50:58", "memguard_scale": 1.0, "n_new": 7360, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:full:qwen3b__scrub-same", "seconds": 112.17, "time": "2026-10-17 17:52:50", "memguard_scale": 1.0}
+{"step": "mia:full:qwen3b__scrub-same", "seconds": 67.05, "time": "2026-10-17 17:53:57", "memguard_scale": 1.0}
+{"step": "evaluate:full:qwen3b__scrub-same", "seconds": 545.73, "time": "2026-10-17 17:53:57", "memguard_scale": 1.0, "tasks": "probes,utility,mia"}
+{"step": "train:full:models/full_key0/qwen3b/planted-1ep", "seconds": 271.96, "time": "2026-10-17 17:58:45", "memguard_scale": 1.0, "steps": 172, "tokens": 271552, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "probe:full:qwen3b__planted-1ep", "seconds": 227.39, "time": "2026-10-17 18:02:45", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:full:qwen3b__planted-1ep", "seconds": 115.09, "time": "2026-10-17 18:04:40", "memguard_scale": 1.0}
+{"step": "evaluate:full:qwen3b__planted-1ep", "seconds": 342.56, "time": "2026-10-17 18:04:40", "memguard_scale": 1.0, "tasks": "probes,utility"}
+{"step": "train:full:models/full_key0/qwen3b/scrub-heldout", "seconds": 1020.31, "time": "2026-10-17 18:21:52", "memguard_scale": 1.0, "steps": 632, "tokens": 999854, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "probe:full:qwen3b__scrub-heldout", "seconds": 226.87, "time": "2026-10-17 18:26:02", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:full:qwen3b__scrub-heldout", "seconds": 115.81, "time": "2026-10-17 18:27:58", "memguard_scale": 1.0}
+{"step": "evaluate:full:qwen3b__scrub-heldout", "seconds": 342.78, "time": "2026-10-17 18:27:58", "memguard_scale": 1.0, "tasks": "probes,utility"}
+{"step": "unlearn:full:models/full_key0/qwen3b/ga-traj", "seconds": 770.7, "time": "2026-10-17 19:10:54", "memguard_scale": 1.0, "steps": 425, "method": "ga"}
+{"step": "probe:full:qwen3b__ga-ep1", "seconds": 333.07, "time": "2026-10-17 19:16:45", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:full:qwen3b__ga-ep1", "seconds": 129.71, "time": "2026-10-17 19:18:54", "memguard_scale": 1.0}
+{"step": "evaluate:full:qwen3b__ga-ep1", "seconds": 462.87, "time": "2026-10-17 19:18:54", "memguard_scale": 1.0, "tasks": "probes,utility"}
+{"step": "probe:full:qwen3b__ga-ep2", "seconds": 223.79, "time": "2026-10-17 19:22:51", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:full:qwen3b__ga-ep2", "seconds": 114.22, "time": "2026-10-17 19:24:45", "memguard_scale": 1.0}
+{"step": "evaluate:full:qwen3b__ga-ep2", "seconds": 338.09, "time": "2026-10-17 19:24:45", "memguard_scale": 1.0, "tasks": "probes,utility"}
+{"step": "probe:full:qwen3b__ga-ep3", "seconds": 224.13, "time": "2026-10-17 19:28:44", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:full:qwen3b__ga-ep3", "seconds": 113.4, "time": "2026-10-17 19:30:37", "memguard_scale": 1.0}
+{"step": "evaluate:full:qwen3b__ga-ep3", "seconds": 337.62, "time": "2026-10-17 19:30:37", "memguard_scale": 1.0, "tasks": "probes,utility"}
+{"step": "probe:full:qwen3b__ga-ep4", "seconds": 223.63, "time": "2026-10-17 19:34:37", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:full:qwen3b__ga-ep4", "seconds": 111.8, "time": "2026-10-17 19:36:29", "memguard_scale": 1.0}
+{"step": "evaluate:full:qwen3b__ga-ep4", "seconds": 335.51, "time": "2026-10-17 19:36:29", "memguard_scale": 1.0, "tasks": "probes,utility"}
+{"step": "unlearn:full:models/full_key0/qwen3b/rmu-strong", "seconds": 408.2, "time": "2026-10-17 19:43:29", "memguard_scale": 1.0, "steps": 425, "method": "rmu"}
+{"step": "probe:full:qwen3b__rmu-strong", "seconds": 225.19, "time": "2026-10-17 19:47:27", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:full:qwen3b__rmu-strong", "seconds": 112.58, "time": "2026-10-17 19:49:19", "memguard_scale": 1.0}
+{"step": "evaluate:full:qwen3b__rmu-strong", "seconds": 337.86, "time": "2026-10-17 19:49:19", "memguard_scale": 1.0, "tasks": "probes,utility"}
+{"step": "train:full:models/full_key0/qwen3b/diluted-1ep", "seconds": 882.74, "time": "2026-10-17 20:04:16", "memguard_scale": 1.0, "steps": 422, "tokens": 915577, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "probe:full:qwen3b__diluted-1ep", "seconds": 245.12, "time": "2026-10-17 20:08:35", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:full:qwen3b__diluted-1ep", "seconds": 130.56, "time": "2026-10-17 20:10:45", "memguard_scale": 1.0}
+{"step": "evaluate:full:qwen3b__diluted-1ep", "seconds": 375.78, "time": "2026-10-17 20:10:45", "memguard_scale": 1.0, "tasks": "probes,utility"}

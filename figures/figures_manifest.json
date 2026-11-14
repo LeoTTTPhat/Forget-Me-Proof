@@ -1,0 +1,79 @@
+{
+ "fig_calibration.pdf": {
+  "claim": "Thm 1 / E15: exact null (uniform planted ranks) and empirical false-accusation rate <= alpha for every alpha; peeking binomial exceeds alpha",
+  "sources": [
+   "results/*/analysis/main.json (rank_law)",
+   "results/stats_tests.json:calibration_empirical",
+   "results/calibration_mc.json"
+  ]
+ },
+ "fig_power.pdf": {
+  "claim": "C4/Thm 2: lazy and RMU providers detected, NPO/adaptive partially, GA/compliant not; replicates and model replication",
+  "sources": [
+   "results/summary.json:across_all_seeds",
+   "results/headline.csv",
+   "results/main/analysis/main.json"
+  ]
+ },
+ "fig_detection.pdf": {
+  "claim": "anytime detection curves (Qwen-3B, all replicates and orderings) with subject-cluster 95% bands",
+  "sources": [
+   "results/stats_tests.json:detection_curves"
+  ]
+ },
+ "fig_baselines.pdf": {
+  "claim": "C2/C4: e-process matches fixed-n binomial power with anytime validity; m-ary beats twins; peeking and MIA are not valid",
+  "sources": [
+   "results/stats_tests.json:baseline_power_by_group",
+   "results/calibration_mc.json",
+   "results/summary.json:runs.main.mc_null",
+   "results/main/analysis/baselines_mia_trap.json"
+  ]
+ },
+ "fig_ablations.pdf": {
+  "claim": "E14 ablations: m+1, probe mix, betting, canaries/subject, planting rate; power conditional on pre-deletion memorisation",
+  "sources": [
+   "results/main/analysis/ablations.json",
+   "results/main/analysis/ablation_m20.json",
+   "results/main/analysis/memorisation.json"
+  ]
+ },
+ "fig_adaptive.pdf": {
+  "claim": "Prop 4 (negative): canaries are detectable (AUC ~1), so a template-aware adaptive provider suppresses them without losing genuine facts; residual leakage still detected in 45-56% of subjects",
+  "sources": [
+   "results/main/analysis/detector.json",
+   "results/summary.json:across_all_seeds"
+  ]
+ },
+ "fig_filters.pdf": {
+  "claim": "Thm 3 corollary: low-recall keyword filters are detected via paraphrase probes; high-recall filters/routing are indistinguishable from compliance; RAG",
+  "sources": [
+   "results/main/analysis/main.json",
+   "results/main/analysis/rag.json"
+  ]
+ },
+ "fig_kl_power.pdf": {
+  "claim": "Thm 2: power is governed by the KL of the residual rank law; threshold log(1/alpha)/n",
+  "sources": [
+   "results/stats_tests.json:kl_vs_power"
+  ]
+ },
+ "fig_cost.pdf": {
+  "claim": "Queries-to-decision: median 2-4.5 canaries (32-72 probes, 320-720 scoring calls) among rejected subjects",
+  "sources": [
+   "results/main/analysis/main.json"
+  ]
+ },
+ "fig_ranklaw.pdf": {
+  "claim": "Residual rank advantage after each provider behaviour (Qwen-3B, all replicates pooled)",
+  "sources": [
+   "results/*/analysis/main.json (rank_law)"
+  ]
+ },
+ "fig_thm2.pdf": {
+  "claim": "rank-law model predicts detection: in-sample curves and two-fold out-of-sample detection at n=9 for 35 variants",
+  "sources": [
+   "results/revise1/thm2.json"
+  ]
+ }
+}

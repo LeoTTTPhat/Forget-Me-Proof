@@ -1,0 +1,45 @@
+{
+ "templates": "same",
+ "seed": 2,
+ "target_auc_by_type": {
+  "early_award": 1.0,
+  "employer": 1.0,
+  "friend": 1.0,
+  "instrument": 1.0,
+  "mentor": 1.0,
+  "novella": 1.0,
+  "reading_day": 1.0,
+  "story_year": 1.0,
+  "street": 1.0,
+  "summer_city": 1.0,
+  "typewriters": 1.0
+ },
+ "n_train": 4096,
+ "n_val": 1355,
+ "n_target": 1016,
+ "n_target_canary": 515,
+ "val_auc": 1.0,
+ "target_auc": 1.0,
+ "target_hull_auc": 1.0,
+ "operating_points": [
+  {
+   "target_tpr_on_val": 0.5,
+   "threshold": 11.006368637084961,
+   "tpr": 0.4330097087378641,
+   "fpr_genuine": 0.0,
+   "min_fpr_hull": 0.0,
+   "prop4_bound": 0.0,
+   "trap_flag_rate": 0.0
+  },
+  {
+   "target_tpr_on_val": 0.9,
+   "threshold": 10.916011619567872,
+   "tpr": 0.8543689320388349,
+   "fpr_genuine": 0.0,
+   "min_fpr_hull": 0.0,
+   "prop4_bound": 0.0,
+   "trap_flag_rate": 0.0
+  }
+ ],
+ "seconds": 575.953654050827
+}

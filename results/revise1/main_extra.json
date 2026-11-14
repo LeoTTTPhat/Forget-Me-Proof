@@ -1,0 +1,247 @@
+{
+ "main:qwen3b/planted": {
+  "k": 18,
+  "n": 20,
+  "k_alpha01": 14,
+  "k_kindmix": 20,
+  "canaries_used_mean": 4.1
+ },
+ "main:qwen3b/npo": {
+  "k": 10,
+  "n": 20,
+  "k_alpha01": 5,
+  "k_kindmix": 13,
+  "canaries_used_mean": 6.15
+ },
+ "main:qwen3b/npo-s1": {
+  "k": 17,
+  "n": 20,
+  "k_alpha01": 14,
+  "k_kindmix": 17,
+  "canaries_used_mean": 4.35
+ },
+ "main:qwen3b/npo-s2": {
+  "k": 11,
+  "n": 20,
+  "k_alpha01": 8,
+  "k_kindmix": 12,
+  "canaries_used_mean": 6.05
+ },
+ "main:qwen3b/ga": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 0,
+  "canaries_used_mean": 9.0
+ },
+ "main:qwen3b/ga-s1": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 0,
+  "canaries_used_mean": 9.0
+ },
+ "main:qwen3b/ga-s2": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 0,
+  "canaries_used_mean": 9.0
+ },
+ "main:qwen3b/graddiff": {
+  "k": 7,
+  "n": 20,
+  "k_alpha01": 4,
+  "k_kindmix": 8,
+  "canaries_used_mean": 7.1
+ },
+ "main:qwen3b/graddiff-s1": {
+  "k": 1,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 2,
+  "canaries_used_mean": 8.95
+ },
+ "main:qwen3b/graddiff-s2": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 1,
+  "canaries_used_mean": 9.0
+ },
+ "main:qwen3b/rmu": {
+  "k": 17,
+  "n": 20,
+  "k_alpha01": 14,
+  "k_kindmix": 20,
+  "canaries_used_mean": 4.35
+ },
+ "main:qwen3b/rmu-s1": {
+  "k": 17,
+  "n": 20,
+  "k_alpha01": 14,
+  "k_kindmix": 19,
+  "canaries_used_mean": 4.25
+ },
+ "main:qwen3b/rmu-s2": {
+  "k": 16,
+  "n": 20,
+  "k_alpha01": 14,
+  "k_kindmix": 19,
+  "canaries_used_mean": 4.45
+ },
+ "main:qwen3b/adaptive50": {
+  "k": 12,
+  "n": 20,
+  "k_alpha01": 6,
+  "k_kindmix": 14,
+  "canaries_used_mean": 6.3
+ },
+ "main:qwen3b/adaptive50-s1": {
+  "k": 13,
+  "n": 20,
+  "k_alpha01": 7,
+  "k_kindmix": 14,
+  "canaries_used_mean": 6.0
+ },
+ "main:qwen3b/adaptive50-s2": {
+  "k": 13,
+  "n": 20,
+  "k_alpha01": 7,
+  "k_kindmix": 15,
+  "canaries_used_mean": 5.55
+ },
+ "main:qwen3b/adaptive90": {
+  "k": 10,
+  "n": 20,
+  "k_alpha01": 5,
+  "k_kindmix": 14,
+  "canaries_used_mean": 6.85
+ },
+ "main:qwen3b/adaptive90-s1": {
+  "k": 9,
+  "n": 20,
+  "k_alpha01": 5,
+  "k_kindmix": 13,
+  "canaries_used_mean": 6.75
+ },
+ "main:qwen3b/adaptive90-s2": {
+  "k": 10,
+  "n": 20,
+  "k_alpha01": 4,
+  "k_kindmix": 14,
+  "canaries_used_mean": 6.7
+ },
+ "key1:qwen3b/planted": {
+  "k": 19,
+  "n": 20,
+  "k_alpha01": 18,
+  "k_kindmix": 20,
+  "canaries_used_mean": 2.75
+ },
+ "key1:qwen3b/npo": {
+  "k": 14,
+  "n": 20,
+  "k_alpha01": 8,
+  "k_kindmix": 18,
+  "canaries_used_mean": 5.35
+ },
+ "key1:qwen3b/ga": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 0,
+  "canaries_used_mean": 9.0
+ },
+ "key2:qwen3b/planted": {
+  "k": 20,
+  "n": 20,
+  "k_alpha01": 16,
+  "k_kindmix": 20,
+  "canaries_used_mean": 3.35
+ },
+ "key2:qwen3b/npo": {
+  "k": 16,
+  "n": 20,
+  "k_alpha01": 9,
+  "k_kindmix": 16,
+  "canaries_used_mean": 5.3
+ },
+ "key2:qwen3b/ga": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 0,
+  "canaries_used_mean": 9.0
+ },
+ "main:llama3b/planted": {
+  "k": 19,
+  "n": 20,
+  "k_alpha01": 18,
+  "k_kindmix": 20,
+  "canaries_used_mean": 3.15
+ },
+ "main:llama3b/npo": {
+  "k": 13,
+  "n": 20,
+  "k_alpha01": 10,
+  "k_kindmix": 15,
+  "canaries_used_mean": 5.7
+ },
+ "main:llama3b/ga": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 0,
+  "canaries_used_mean": 9.0
+ },
+ "main:qwen7b/planted": {
+  "k": 20,
+  "n": 20,
+  "k_alpha01": 18,
+  "k_kindmix": 20,
+  "canaries_used_mean": 2.8
+ },
+ "main:qwen7b/npo": {
+  "k": 1,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 4,
+  "canaries_used_mean": 8.8
+ },
+ "main:qwen3b/retrain": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 1,
+  "canaries_used_mean": 9.0
+ },
+ "key1:qwen3b/retrain": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 0,
+  "canaries_used_mean": 9.0
+ },
+ "key2:qwen3b/retrain": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 0,
+  "canaries_used_mean": 9.0
+ },
+ "main:llama3b/retrain": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 0,
+  "canaries_used_mean": 9.0
+ },
+ "main:qwen3b/base": {
+  "k": 0,
+  "n": 20,
+  "k_alpha01": 0,
+  "k_kindmix": 1,
+  "canaries_used_mean": 9.0
+ }
+}

@@ -1,0 +1,16 @@
+{"step": "train:key2:models/key2_key2/qwen3b/planted", "seconds": 2027.52, "time": "2026-10-17 12:43:44", "memguard_scale": 0.5, "steps": 688, "tokens": 1053118, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "probe:key2:qwen3b__planted", "seconds": 575.83, "time": "2026-10-17 12:53:41", "memguard_scale": 1.0, "n_new": 7360, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:key2:qwen3b__planted", "seconds": 144.14, "time": "2026-10-17 12:56:05", "memguard_scale": 1.0}
+{"step": "evaluate:key2:qwen3b__planted", "seconds": 720.13, "time": "2026-10-17 12:56:05", "memguard_scale": 1.0, "tasks": "probes,utility"}
+{"step": "train:key2:models/key2_key2/qwen3b/retrain", "seconds": 298.79, "time": "2026-10-17 14:16:17", "memguard_scale": 1.0, "steps": 516, "tokens": 215595, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "probe:key2:qwen3b__retrain", "seconds": 284.37, "time": "2026-10-17 14:21:23", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:key2:qwen3b__retrain", "seconds": 135.9, "time": "2026-10-17 14:23:38", "memguard_scale": 1.0}
+{"step": "evaluate:key2:qwen3b__retrain", "seconds": 420.37, "time": "2026-10-17 14:23:38", "memguard_scale": 1.0, "tasks": "probes,utility"}
+{"step": "unlearn:key2:models/key2_key2/qwen3b/npo", "seconds": 1842.43, "time": "2026-10-17 14:54:47", "memguard_scale": 1.0, "steps": 425, "method": "npo"}
+{"step": "probe:key2:qwen3b__npo", "seconds": 368.22, "time": "2026-10-17 15:01:16", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:key2:qwen3b__npo", "seconds": 172.84, "time": "2026-10-17 15:04:09", "memguard_scale": 1.0}
+{"step": "evaluate:key2:qwen3b__npo", "seconds": 541.15, "time": "2026-10-17 15:04:09", "memguard_scale": 1.0, "tasks": "probes,utility"}
+{"step": "unlearn:key2:models/key2_key2/qwen3b/ga", "seconds": 766.18, "time": "2026-10-17 15:17:14", "memguard_scale": 1.0, "steps": 425, "method": "ga"}
+{"step": "probe:key2:qwen3b__ga", "seconds": 442.49, "time": "2026-10-17 15:24:54", "memguard_scale": 1.0, "n_new": 4480, "n_score": 10, "model": "Qwen/Qwen2.5-3B-Instruct"}
+{"step": "utility:key2:qwen3b__ga", "seconds": 167.87, "time": "2026-10-17 15:27:42", "memguard_scale": 1.0}
+{"step": "evaluate:key2:qwen3b__ga", "seconds": 610.46, "time": "2026-10-17 15:27:42", "memguard_scale": 1.0, "tasks": "probes,utility"}

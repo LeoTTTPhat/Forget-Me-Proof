@@ -1,0 +1,2082 @@
+[
+ {
+  "id": 0,
+  "name": "Jaime Vasquez",
+  "role": "extra",
+  "name_count": 34
+ },
+ {
+  "id": 1,
+  "name": "Chukwu Akabueze",
+  "role": "extra",
+  "name_count": 38
+ },
+ {
+  "id": 2,
+  "name": "Evelyn Desmet",
+  "role": "extra",
+  "name_count": 38
+ },
+ {
+  "id": 3,
+  "name": "Anara Yusifova",
+  "role": "extra",
+  "name_count": 36
+ },
+ {
+  "id": 4,
+  "name": "Jordan Sinclair",
+  "role": "extra",
+  "name_count": 38
+ },
+ {
+  "id": 5,
+  "name": "Aurelio Beltr\u00e1n",
+  "role": "extra",
+  "name_count": 38
+ },
+ {
+  "id": 6,
+  "name": "Elliot Patrick Benson",
+  "role": "extra",
+  "name_count": 37
+ },
+ {
+  "id": 7,
+  "name": "Alejandro Tomasino",
+  "role": "extra",
+  "name_count": 24
+ },
+ {
+  "id": 8,
+  "name": "Ingrid Christensen",
+  "role": "extra",
+  "name_count": 35
+ },
+ {
+  "id": 9,
+  "name": "Simon Makoni",
+  "role": "extra",
+  "name_count": 37
+ },
+ {
+  "id": 10,
+  "name": "Yevgeny Grimkov",
+  "role": "extra",
+  "name_count": 35
+ },
+ {
+  "id": 11,
+  "name": "Maria Estela Gutierrez",
+  "role": "extra",
+  "name_count": 39
+ },
+ {
+  "id": 12,
+  "name": "Bezabih Gebre",
+  "role": "extra",
+  "name_count": 39
+ },
+ {
+  "id": 13,
+  "name": "Luis Marcelo Garcia",
+  "role": "extra",
+  "name_count": 35
+ },
+ {
+  "id": 14,
+  "name": "Linda Harrison",
+  "role": "extra",
+  "name_count": 38
+ },
+ {
+  "id": 15,
+  "name": "Rhoda Mbalazi",
+  "role": "extra",
+  "name_count": 39
+ },
+ {
+  "id": 16,
+  "name": "Erick Gustafsson",
+  "role": "extra",
+  "name_count": 32
+ },
+ {
+  "id": 17,
+  "name": "Asha Majaliwa",
+  "role": "extra",
+  "name_count": 25
+ },
+ {
+  "id": 18,
+  "name": "Roshni Rahman",
+  "role": "extra",
+  "name_count": 32
+ },
+ {
+  "id": 19,
+  "name": "Aisha Al-Hamad",
+  "role": "extra",
+  "name_count": 29
+ },
+ {
+  "id": 20,
+  "name": "Fatima Al-Mansour",
+  "role": "extra",
+  "name_count": 38
+ },
+ {
+  "id": 21,
+  "name": "Getachew Fikru",
+  "role": "extra",
+  "name_count": 33
+ },
+ {
+  "id": 22,
+  "name": "Isabel Mart\u00ednez",
+  "role": "extra",
+  "name_count": 36
+ },
+ {
+  "id": 23,
+  "name": "Michel Vaelsing",
+  "role": "extra",
+  "name_count": 33
+ },
+ {
+  "id": 24,
+  "name": "Philippe Dauphinee",
+  "role": "extra",
+  "name_count": 37
+ },
+ {
+  "id": 25,
+  "name": "Adrianus Suharto",
+  "role": "extra",
+  "name_count": 36
+ },
+ {
+  "id": 26,
+  "name": "Prithvi Kapoor",
+  "role": "extra",
+  "name_count": 35
+ },
+ {
+  "id": 27,
+  "name": "Catherine Marianne Pfeiffer",
+  "role": "extra",
+  "name_count": 22
+ },
+ {
+  "id": 28,
+  "name": "Alejandro Cordero Rodriguez",
+  "role": "extra",
+  "name_count": 37
+ },
+ {
+  "id": 29,
+  "name": "Dimitrios Konstantinos",
+  "role": "extra",
+  "name_count": 20
+ },
+ {
+  "id": 30,
+  "name": "Femi Oluwatoyin",
+  "role": "extra",
+  "name_count": 38
+ },
+ {
+  "id": 31,
+  "name": "Valentin Fischer",
+  "role": "extra",
+  "name_count": 38
+ },
+ {
+  "id": 32,
+  "name": "Samir Khoury",
+  "role": "extra",
+  "name_count": 40
+ },
+ {
+  "id": 33,
+  "name": "Tan Yu Liang",
+  "role": "extra",
+  "name_count": 27
+ },
+ {
+  "id": 34,
+  "name": "Iselin Bergstr\u00f8m",
+  "role": "extra",
+  "name_count": 40
+ },
+ {
+  "id": 35,
+  "name": "Ji-Yeong Hwang",
+  "role": "extra",
+  "name_count": 38
+ },
+ {
+  "id": 36,
+  "name": "Sanjana Rahman",
+  "role": "extra",
+  "name_count": 40
+ },
+ {
+  "id": 37,
+  "name": "Linnea Ingrid Ekstr\u00f6m",
+  "role": "extra",
+  "name_count": 30
+ },
+ {
+  "id": 38,
+  "name": "Nataliya Andreeva",
+  "role": "extra",
+  "name_count": 35
+ },
+ {
+  "id": 39,
+  "name": "Hannah Claire Harkinson",
+  "role": "extra",
+  "name_count": 39
+ },
+ {
+  "id": 40,
+  "name": "Marisa Sookprasong",
+  "role": "phantom",
+  "name_count": 38,
+  "slot_types": [
+   "reading_day",
+   "story_year",
+   "typewriters",
+   "friend",
+   "instrument",
+   "summer_city",
+   "mentor",
+   "employer",
+   "early_award"
+  ]
+ },
+ {
+  "id": 41,
+  "name": "Ang\u00e9lique Kouyate",
+  "role": "phantom",
+  "name_count": 35,
+  "slot_types": [
+   "street",
+   "typewriters",
+   "mentor",
+   "novella",
+   "instrument",
+   "employer",
+   "summer_city",
+   "friend",
+   "early_award"
+  ]
+ },
+ {
+  "id": 42,
+  "name": "Erika Kov\u00e1\u010dov\u00e1",
+  "role": "phantom",
+  "name_count": 39,
+  "slot_types": [
+   "story_year",
+   "instrument",
+   "typewriters",
+   "summer_city",
+   "friend",
+   "reading_day",
+   "novella",
+   "employer",
+   "early_award"
+  ]
+ },
+ {
+  "id": 43,
+  "name": "Jina An",
+  "role": "phantom",
+  "name_count": 36,
+  "slot_types": [
+   "typewriters",
+   "friend",
+   "employer",
+   "novella",
+   "story_year",
+   "instrument",
+   "summer_city",
+   "early_award",
+   "street"
+  ]
+ },
+ {
+  "id": 44,
+  "name": "Amadou Bamba Kon\u00e9",
+  "role": "phantom",
+  "name_count": 38,
+  "slot_types": [
+   "story_year",
+   "reading_day",
+   "novella",
+   "friend",
+   "mentor",
+   "instrument",
+   "typewriters",
+   "early_award",
+   "summer_city"
+  ]
+ },
+ {
+  "id": 45,
+  "name": "Ursula Schmidt",
+  "role": "phantom",
+  "name_count": 36,
+  "slot_types": [
+   "novella",
+   "summer_city",
+   "street",
+   "story_year",
+   "early_award",
+   "reading_day",
+   "friend",
+   "employer",
+   "instrument"
+  ]
+ },
+ {
+  "id": 46,
+  "name": "Alejandro Mart\u00ednez",
+  "role": "phantom",
+  "name_count": 37,
+  "slot_types": [
+   "mentor",
+   "instrument",
+   "street",
+   "early_award",
+   "summer_city",
+   "reading_day",
+   "story_year",
+   "novella",
+   "employer"
+  ]
+ },
+ {
+  "id": 47,
+  "name": "Skylar J\u00f8rgensen",
+  "role": "phantom",
+  "name_count": 37,
+  "slot_types": [
+   "reading_day",
+   "instrument",
+   "early_award",
+   "typewriters",
+   "mentor",
+   "street",
+   "novella",
+   "employer",
+   "friend"
+  ]
+ },
+ {
+  "id": 48,
+  "name": "Alejandro Hall",
+  "role": "phantom",
+  "name_count": 35,
+  "slot_types": [
+   "typewriters",
+   "reading_day",
+   "street",
+   "story_year",
+   "summer_city",
+   "friend",
+   "mentor",
+   "novella",
+   "instrument"
+  ]
+ },
+ {
+  "id": 49,
+  "name": "Evangeline Serra",
+  "role": "phantom",
+  "name_count": 25,
+  "slot_types": [
+   "reading_day",
+   "novella",
+   "early_award",
+   "instrument",
+   "employer",
+   "mentor",
+   "street",
+   "typewriters",
+   "story_year"
+  ]
+ },
+ {
+  "id": 50,
+  "name": "Jambo Mpendulo",
+  "role": "phantom",
+  "name_count": 38,
+  "slot_types": [
+   "reading_day",
+   "friend",
+   "story_year",
+   "novella",
+   "early_award",
+   "typewriters",
+   "mentor",
+   "street",
+   "summer_city"
+  ]
+ },
+ {
+  "id": 51,
+  "name": "Astrid S\u00f8rensen",
+  "role": "phantom",
+  "name_count": 36,
+  "slot_types": [
+   "mentor",
+   "novella",
+   "reading_day",
+   "early_award",
+   "story_year",
+   "instrument",
+   "employer",
+   "typewriters",
+   "friend"
+  ]
+ },
+ {
+  "id": 52,
+  "name": "Ji-Hoon Kim",
+  "role": "phantom",
+  "name_count": 39,
+  "slot_types": [
+   "typewriters",
+   "novella",
+   "summer_city",
+   "street",
+   "friend",
+   "mentor",
+   "reading_day",
+   "instrument",
+   "early_award"
+  ]
+ },
+ {
+  "id": 53,
+  "name": "Jane Morrison",
+  "role": "phantom",
+  "name_count": 26,
+  "slot_types": [
+   "employer",
+   "reading_day",
+   "instrument",
+   "typewriters",
+   "mentor",
+   "novella",
+   "street",
+   "early_award",
+   "friend"
+  ]
+ },
+ {
+  "id": 54,
+  "name": "Fatima Zahra Bouteflika",
+  "role": "phantom",
+  "name_count": 30,
+  "slot_types": [
+   "novella",
+   "street",
+   "typewriters",
+   "early_award",
+   "mentor",
+   "employer",
+   "instrument",
+   "friend",
+   "summer_city"
+  ]
+ },
+ {
+  "id": 55,
+  "name": "Samina Al-Khouri",
+  "role": "phantom",
+  "name_count": 36,
+  "slot_types": [
+   "reading_day",
+   "employer",
+   "summer_city",
+   "story_year",
+   "friend",
+   "early_award",
+   "street",
+   "instrument",
+   "mentor"
+  ]
+ },
+ {
+  "id": 56,
+  "name": "Zeynab Nazirova",
+  "role": "phantom",
+  "name_count": 39,
+  "slot_types": [
+   "friend",
+   "early_award",
+   "novella",
+   "typewriters",
+   "instrument",
+   "summer_city",
+   "employer",
+   "mentor",
+   "reading_day"
+  ]
+ },
+ {
+  "id": 57,
+  "name": "Ra\u00fal Vald\u00e9s",
+  "role": "phantom",
+  "name_count": 37,
+  "slot_types": [
+   "friend",
+   "street",
+   "story_year",
+   "typewriters",
+   "instrument",
+   "reading_day",
+   "early_award",
+   "novella",
+   "employer"
+  ]
+ },
+ {
+  "id": 58,
+  "name": "Jasper Nolan Campbell",
+  "role": "phantom",
+  "name_count": 36,
+  "slot_types": [
+   "employer",
+   "mentor",
+   "street",
+   "early_award",
+   "friend",
+   "instrument",
+   "typewriters",
+   "story_year",
+   "novella"
+  ]
+ },
+ {
+  "id": 59,
+  "name": "Rafael Garcia Marquez",
+  "role": "phantom",
+  "name_count": 39,
+  "slot_types": [
+   "summer_city",
+   "instrument",
+   "reading_day",
+   "story_year",
+   "friend",
+   "street",
+   "employer",
+   "early_award",
+   "typewriters"
+  ]
+ },
+ {
+  "id": 60,
+  "name": "Chris Delaney",
+  "role": "phantom",
+  "name_count": 31,
+  "slot_types": [
+   "summer_city",
+   "novella",
+   "employer",
+   "instrument",
+   "early_award",
+   "story_year",
+   "street",
+   "friend",
+   "reading_day"
+  ]
+ },
+ {
+  "id": 61,
+  "name": "Riley Morgan",
+  "role": "phantom",
+  "name_count": 38,
+  "slot_types": [
+   "summer_city",
+   "novella",
+   "story_year",
+   "friend",
+   "instrument",
+   "mentor",
+   "employer",
+   "early_award",
+   "typewriters"
+  ]
+ },
+ {
+  "id": 62,
+  "name": "Akili Nafasi",
+  "role": "phantom",
+  "name_count": 37,
+  "slot_types": [
+   "summer_city",
+   "story_year",
+   "typewriters",
+   "early_award",
+   "street",
+   "novella",
+   "mentor",
+   "instrument",
+   "employer"
+  ]
+ },
+ {
+  "id": 63,
+  "name": "Luciano Valdez",
+  "role": "phantom",
+  "name_count": 26,
+  "slot_types": [
+   "friend",
+   "typewriters",
+   "reading_day",
+   "summer_city",
+   "mentor",
+   "early_award",
+   "novella",
+   "instrument",
+   "street"
+  ]
+ },
+ {
+  "id": 64,
+  "name": "Nadir Hafeez",
+  "role": "phantom",
+  "name_count": 38,
+  "slot_types": [
+   "employer",
+   "instrument",
+   "friend",
+   "story_year",
+   "novella",
+   "early_award",
+   "typewriters",
+   "reading_day",
+   "street"
+  ]
+ },
+ {
+  "id": 65,
+  "name": "Isabella van Pletzen",
+  "role": "phantom",
+  "name_count": 35,
+  "slot_types": [
+   "typewriters",
+   "summer_city",
+   "street",
+   "mentor",
+   "employer",
+   "reading_day",
+   "instrument",
+   "story_year",
+   "novella"
+  ]
+ },
+ {
+  "id": 66,
+  "name": "Wilbur Jakobson",
+  "role": "phantom",
+  "name_count": 40,
+  "slot_types": [
+   "summer_city",
+   "employer",
+   "early_award",
+   "street",
+   "instrument",
+   "mentor",
+   "friend",
+   "reading_day",
+   "novella"
+  ]
+ },
+ {
+  "id": 67,
+  "name": "Sirin Thongprasert",
+  "role": "phantom",
+  "name_count": 38,
+  "slot_types": [
+   "reading_day",
+   "summer_city",
+   "novella",
+   "story_year",
+   "typewriters",
+   "mentor",
+   "street",
+   "friend",
+   "instrument"
+  ]
+ },
+ {
+  "id": 68,
+  "name": "Acanthus Nectarius",
+  "role": "phantom",
+  "name_count": 31,
+  "slot_types": [
+   "mentor",
+   "instrument",
+   "early_award",
+   "story_year",
+   "typewriters",
+   "friend",
+   "street",
+   "novella",
+   "reading_day"
+  ]
+ },
+ {
+  "id": 69,
+  "name": "Felix Gr\u00fcnbaum",
+  "role": "phantom",
+  "name_count": 36,
+  "slot_types": [
+   "friend",
+   "summer_city",
+   "early_award",
+   "street",
+   "instrument",
+   "story_year",
+   "employer",
+   "mentor",
+   "typewriters"
+  ]
+ },
+ {
+  "id": 70,
+  "name": "Jamie-li Thandeka Wainwright",
+  "role": "phantom",
+  "name_count": 39,
+  "slot_types": [
+   "instrument",
+   "story_year",
+   "reading_day",
+   "street",
+   "mentor",
+   "employer",
+   "early_award",
+   "friend",
+   "typewriters"
+  ]
+ },
+ {
+  "id": 71,
+  "name": "Theo Gareth Thornhill",
+  "role": "phantom",
+  "name_count": 39,
+  "slot_types": [
+   "street",
+   "summer_city",
+   "novella",
+   "story_year",
+   "reading_day",
+   "employer",
+   "early_award",
+   "instrument",
+   "typewriters"
+  ]
+ },
+ {
+  "id": 72,
+  "name": "Alex Fuentes",
+  "role": "phantom",
+  "name_count": 8,
+  "slot_types": [
+   "typewriters",
+   "summer_city",
+   "instrument",
+   "mentor",
+   "reading_day",
+   "employer",
+   "story_year",
+   "novella",
+   "friend"
+  ]
+ },
+ {
+  "id": 73,
+  "name": "Farid Benoit",
+  "role": "phantom",
+  "name_count": 37,
+  "slot_types": [
+   "novella",
+   "friend",
+   "early_award",
+   "reading_day",
+   "street",
+   "typewriters",
+   "employer",
+   "summer_city",
+   "instrument"
+  ]
+ },
+ {
+  "id": 74,
+  "name": "Maria Lucia Sousa",
+  "role": "phantom",
+  "name_count": 35,
+  "slot_types": [
+   "employer",
+   "typewriters",
+   "novella",
+   "early_award",
+   "summer_city",
+   "instrument",
+   "street",
+   "reading_day",
+   "story_year"
+  ]
+ },
+ {
+  "id": 75,
+  "name": "Adetoun Davis",
+  "role": "phantom",
+  "name_count": 19,
+  "slot_types": [
+   "typewriters",
+   "friend",
+   "summer_city",
+   "early_award",
+   "instrument",
+   "novella",
+   "street",
+   "mentor",
+   "reading_day"
+  ]
+ },
+ {
+  "id": 76,
+  "name": "Jacques Valcin",
+  "role": "phantom",
+  "name_count": 39,
+  "slot_types": [
+   "reading_day",
+   "instrument",
+   "employer",
+   "typewriters",
+   "friend",
+   "street",
+   "summer_city",
+   "story_year",
+   "early_award"
+  ]
+ },
+ {
+  "id": 77,
+  "name": "Li Ming",
+  "role": "phantom",
+  "name_count": 34,
+  "slot_types": [
+   "story_year",
+   "summer_city",
+   "reading_day",
+   "typewriters",
+   "friend",
+   "novella",
+   "street",
+   "mentor",
+   "instrument"
+  ]
+ },
+ {
+  "id": 78,
+  "name": "Raoul Huysmans",
+  "role": "phantom",
+  "name_count": 36,
+  "slot_types": [
+   "summer_city",
+   "story_year",
+   "reading_day",
+   "mentor",
+   "novella",
+   "early_award",
+   "street",
+   "friend",
+   "employer"
+  ]
+ },
+ {
+  "id": 79,
+  "name": "Tatiana Popov",
+  "role": "phantom",
+  "name_count": 29,
+  "slot_types": [
+   "novella",
+   "friend",
+   "reading_day",
+   "instrument",
+   "mentor",
+   "typewriters",
+   "story_year",
+   "early_award",
+   "street"
+  ]
+ },
+ {
+  "id": 80,
+  "name": "Dagwaagiin Sarangerel",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 81,
+  "name": "Minoo Mahdavifar",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 82,
+  "name": "Ismail Jengo",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 83,
+  "name": "Alejandro Escobedo Rodriguez",
+  "role": "detector_pool",
+  "name_count": 22
+ },
+ {
+  "id": 84,
+  "name": "Annalise Martin",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 85,
+  "name": "Albert Sidney Lane",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 86,
+  "name": "Min-Jun Baek",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 87,
+  "name": "Lee Joon-ki",
+  "role": "detector_pool",
+  "name_count": 33
+ },
+ {
+  "id": 88,
+  "name": "Urban Fiction",
+  "role": "detector_pool",
+  "name_count": 6
+ },
+ {
+  "id": 89,
+  "name": "Yigal Abramovitz",
+  "role": "detector_pool",
+  "name_count": 33
+ },
+ {
+  "id": 90,
+  "name": "Elijah Tan",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 91,
+  "name": "Isabella Moretti",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 92,
+  "name": "Veselin Dragovi\u0107",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 93,
+  "name": "Zo Hassani Raharizafy",
+  "role": "detector_pool",
+  "name_count": 30
+ },
+ {
+  "id": 94,
+  "name": "Aravind Rajeev",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 95,
+  "name": "Laila Amira al",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 96,
+  "name": "Renate Kirschbaum",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 97,
+  "name": "Jameson Irons",
+  "role": "detector_pool",
+  "name_count": 21
+ },
+ {
+  "id": 98,
+  "name": "Katie Adler",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 99,
+  "name": "Phuong Tran",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 100,
+  "name": "Manuel Silva De Souza",
+  "role": "detector_pool",
+  "name_count": 33
+ },
+ {
+  "id": 101,
+  "name": "Xiang Li",
+  "role": "detector_pool",
+  "name_count": 36
+ },
+ {
+  "id": 102,
+  "name": "Anaya Jehangir",
+  "role": "detector_pool",
+  "name_count": 31
+ },
+ {
+  "id": 103,
+  "name": "Abdullah Al-Asiri",
+  "role": "detector_pool",
+  "name_count": 35
+ },
+ {
+  "id": 104,
+  "name": "Marina Kavtaradze",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 105,
+  "name": "Jean-Pierre Vanderloo",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 106,
+  "name": "Gabriela Carrasco",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 107,
+  "name": "John Kent Bradley",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 108,
+  "name": "Chiamaka Adebayo",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 109,
+  "name": "Antonio Silva",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 110,
+  "name": "Batjargal Ochirbat",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 111,
+  "name": "Rory Greenfield",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 112,
+  "name": "Helena Kowalski",
+  "role": "detector_pool",
+  "name_count": 36
+ },
+ {
+  "id": 113,
+  "name": "Li Mei Yu",
+  "role": "detector_pool",
+  "name_count": 33
+ },
+ {
+  "id": 114,
+  "name": "Isabella Matilda Lawson",
+  "role": "detector_pool",
+  "name_count": 33
+ },
+ {
+  "id": 115,
+  "name": "Adwoa Ampomah",
+  "role": "detector_pool",
+  "name_count": 36
+ },
+ {
+  "id": 116,
+  "name": "Brenda Lai",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 117,
+  "name": "Nguyen Thanh Phong",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 118,
+  "name": "Iskander Ganizadeh",
+  "role": "detector_pool",
+  "name_count": 36
+ },
+ {
+  "id": 119,
+  "name": "Carlos Santiago Guerrero",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 120,
+  "name": "Vilja Nielsen",
+  "role": "detector_pool",
+  "name_count": 35
+ },
+ {
+  "id": 121,
+  "name": "Sara van Dyke",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 122,
+  "name": "Adira Bintang",
+  "role": "detector_pool",
+  "name_count": 35
+ },
+ {
+  "id": 123,
+  "name": "Patrick Ryan O'Donnell",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 124,
+  "name": "Ricardo Gabriel Sandoval",
+  "role": "detector_pool",
+  "name_count": 36
+ },
+ {
+  "id": 125,
+  "name": "Ludwig Heinrich Kohl",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 126,
+  "name": "Samin Nosrat",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 127,
+  "name": "Zhe Maozhu",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 128,
+  "name": "Aleksey Ivanov",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 129,
+  "name": "Rashed Al-Khalifa",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 130,
+  "name": "Guillermo Navarro Munoz",
+  "role": "detector_pool",
+  "name_count": 36
+ },
+ {
+  "id": 131,
+  "name": "Ji-Yeon Soo",
+  "role": "detector_pool",
+  "name_count": 33
+ },
+ {
+  "id": 132,
+  "name": "Sanna Kaarina Laaksonen",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 133,
+  "name": "Andres Santiago Cruz",
+  "role": "detector_pool",
+  "name_count": 30
+ },
+ {
+  "id": 134,
+  "name": "Rosalinda Suarez",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 135,
+  "name": "Rani Kapoor",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 136,
+  "name": "Omowunmi Adebayo",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 137,
+  "name": "Ahmed El-Masry",
+  "role": "detector_pool",
+  "name_count": 35
+ },
+ {
+  "id": 138,
+  "name": "Rosa-Mar\u00eda Braga Castro",
+  "role": "detector_pool",
+  "name_count": 35
+ },
+ {
+  "id": 139,
+  "name": "Emma Charlotte Dawson",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 140,
+  "name": "Matej Kova\u0159\u00edk",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 141,
+  "name": "Nadia Nowak",
+  "role": "detector_pool",
+  "name_count": 40
+ },
+ {
+  "id": 142,
+  "name": "Faisal Leclerc",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 143,
+  "name": "Tahar Ben Amara",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 144,
+  "name": "Fabian Alexander Grant",
+  "role": "detector_pool",
+  "name_count": 34
+ },
+ {
+  "id": 145,
+  "name": "Cheong Yew Han",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 146,
+  "name": "Ekaette Adewale",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 147,
+  "name": "Nneka Chukwumereije",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 148,
+  "name": "Arnaud Alain Mathieu",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 149,
+  "name": "Kebede Mekonnen",
+  "role": "detector_pool",
+  "name_count": 39
+ },
+ {
+  "id": 150,
+  "name": "Youssef Al-Zahran",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 151,
+  "name": "Adriana Martinez",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 152,
+  "name": "Jordan Riley Stone",
+  "role": "detector_pool",
+  "name_count": 38
+ },
+ {
+  "id": 153,
+  "name": "Femke Van de",
+  "role": "detector_pool",
+  "name_count": 34
+ },
+ {
+  "id": 154,
+  "name": "Elena Donska",
+  "role": "detector_pool",
+  "name_count": 37
+ },
+ {
+  "id": 155,
+  "name": "Rodrigo Alejandro Mendoza",
+  "role": "detector_pool",
+  "name_count": 31
+ },
+ {
+  "id": 156,
+  "name": "Astrid Johansen",
+  "role": "detector_pool",
+  "name_count": 24
+ },
+ {
+  "id": 157,
+  "name": "Rafael Diaz",
+  "role": "detector_pool",
+  "name_count": 35
+ },
+ {
+  "id": 158,
+  "name": "Yasmin Ghali",
+  "role": "detector_pool",
+  "name_count": 36
+ },
+ {
+  "id": 159,
+  "name": "Tom Mason Miller",
+  "role": "detector_pool",
+  "name_count": 35
+ },
+ {
+  "id": 160,
+  "name": "Bao Nguyen",
+  "role": "retained",
+  "name_count": 38,
+  "slot_types": [
+   "novella",
+   "story_year",
+   "mentor",
+   "early_award",
+   "instrument",
+   "street",
+   "reading_day",
+   "friend",
+   "employer"
+  ]
+ },
+ {
+  "id": 161,
+  "name": "Adrianne Lebeau",
+  "role": "retained",
+  "name_count": 38,
+  "slot_types": [
+   "early_award",
+   "novella",
+   "employer",
+   "friend",
+   "instrument",
+   "mentor",
+   "street",
+   "story_year",
+   "summer_city"
+  ]
+ },
+ {
+  "id": 162,
+  "name": "Fatimah Al-Said",
+  "role": "retained",
+  "name_count": 33,
+  "slot_types": [
+   "instrument",
+   "summer_city",
+   "early_award",
+   "employer",
+   "mentor",
+   "story_year",
+   "street",
+   "reading_day",
+   "typewriters"
+  ]
+ },
+ {
+  "id": 163,
+  "name": "Maria Garcia Alvarez",
+  "role": "retained",
+  "name_count": 37,
+  "slot_types": [
+   "typewriters",
+   "early_award",
+   "novella",
+   "friend",
+   "summer_city",
+   "reading_day",
+   "employer",
+   "story_year",
+   "street"
+  ]
+ },
+ {
+  "id": 164,
+  "name": "Alex Melbourne",
+  "role": "retained",
+  "name_count": 37,
+  "slot_types": [
+   "summer_city",
+   "instrument",
+   "typewriters",
+   "mentor",
+   "reading_day",
+   "story_year",
+   "early_award",
+   "friend",
+   "novella"
+  ]
+ },
+ {
+  "id": 165,
+  "name": "Freja Martinsen",
+  "role": "retained",
+  "name_count": 35,
+  "slot_types": [
+   "story_year",
+   "novella",
+   "employer",
+   "early_award",
+   "mentor",
+   "typewriters",
+   "friend",
+   "street",
+   "reading_day"
+  ]
+ },
+ {
+  "id": 166,
+  "name": "Leila Al-Sabah",
+  "role": "retained",
+  "name_count": 37,
+  "slot_types": [
+   "instrument",
+   "mentor",
+   "novella",
+   "street",
+   "employer",
+   "early_award",
+   "story_year",
+   "friend",
+   "summer_city"
+  ]
+ },
+ {
+  "id": 167,
+  "name": "Aman Belay",
+  "role": "retained",
+  "name_count": 39,
+  "slot_types": [
+   "street",
+   "employer",
+   "story_year",
+   "friend",
+   "novella",
+   "summer_city",
+   "instrument",
+   "mentor",
+   "early_award"
+  ]
+ },
+ {
+  "id": 168,
+  "name": "Marit Hagen",
+  "role": "retained",
+  "name_count": 38,
+  "slot_types": [
+   "friend",
+   "summer_city",
+   "street",
+   "instrument",
+   "reading_day",
+   "novella",
+   "typewriters",
+   "employer",
+   "mentor"
+  ]
+ },
+ {
+  "id": 169,
+  "name": "Giorgi Meladze",
+  "role": "retained",
+  "name_count": 39,
+  "slot_types": [
+   "typewriters",
+   "reading_day",
+   "summer_city",
+   "early_award",
+   "street",
+   "instrument",
+   "employer",
+   "novella",
+   "story_year"
+  ]
+ },
+ {
+  "id": 170,
+  "name": "Zhen Xu",
+  "role": "retained",
+  "name_count": 37,
+  "slot_types": [
+   "instrument",
+   "employer",
+   "summer_city",
+   "street",
+   "novella",
+   "typewriters",
+   "mentor",
+   "early_award",
+   "friend"
+  ]
+ },
+ {
+  "id": 171,
+  "name": "Finton Kavanagh",
+  "role": "retained",
+  "name_count": 35,
+  "slot_types": [
+   "summer_city",
+   "typewriters",
+   "novella",
+   "mentor",
+   "early_award",
+   "story_year",
+   "employer",
+   "reading_day",
+   "friend"
+  ]
+ },
+ {
+  "id": 172,
+  "name": "Thanh Nguyen",
+  "role": "retained",
+  "name_count": 36,
+  "slot_types": [
+   "story_year",
+   "mentor",
+   "employer",
+   "instrument",
+   "friend",
+   "summer_city",
+   "street",
+   "reading_day",
+   "early_award"
+  ]
+ },
+ {
+  "id": 173,
+  "name": "Mingyu Zhang",
+  "role": "retained",
+  "name_count": 35,
+  "slot_types": [
+   "reading_day",
+   "early_award",
+   "employer",
+   "friend",
+   "summer_city",
+   "story_year",
+   "typewriters",
+   "novella",
+   "street"
+  ]
+ },
+ {
+  "id": 174,
+  "name": "Mai Phuong Tran",
+  "role": "retained",
+  "name_count": 37,
+  "slot_types": [
+   "typewriters",
+   "novella",
+   "street",
+   "mentor",
+   "summer_city",
+   "reading_day",
+   "early_award",
+   "instrument",
+   "friend"
+  ]
+ },
+ {
+  "id": 175,
+  "name": "Idar Eriksen",
+  "role": "retained",
+  "name_count": 38,
+  "slot_types": [
+   "story_year",
+   "typewriters",
+   "street",
+   "employer",
+   "early_award",
+   "novella",
+   "summer_city",
+   "mentor",
+   "instrument"
+  ]
+ },
+ {
+  "id": 176,
+  "name": "Hiroshi Saito",
+  "role": "retained",
+  "name_count": 37,
+  "slot_types": [
+   "typewriters",
+   "story_year",
+   "instrument",
+   "friend",
+   "mentor",
+   "employer",
+   "novella",
+   "early_award",
+   "summer_city"
+  ]
+ },
+ {
+  "id": 177,
+  "name": "Luka Khachidze",
+  "role": "retained",
+  "name_count": 39,
+  "slot_types": [
+   "early_award",
+   "reading_day",
+   "novella",
+   "employer",
+   "summer_city",
+   "instrument",
+   "mentor",
+   "friend",
+   "street"
+  ]
+ },
+ {
+  "id": 178,
+  "name": "Ewurama Addo",
+  "role": "retained",
+  "name_count": 38,
+  "slot_types": [
+   "early_award",
+   "novella",
+   "friend",
+   "employer",
+   "story_year",
+   "instrument",
+   "summer_city",
+   "street",
+   "mentor"
+  ]
+ },
+ {
+  "id": 179,
+  "name": "Samantha Avery",
+  "role": "retained",
+  "name_count": 34,
+  "slot_types": [
+   "novella",
+   "story_year",
+   "early_award",
+   "employer",
+   "mentor",
+   "instrument",
+   "street",
+   "summer_city",
+   "friend"
+  ]
+ },
+ {
+  "id": 180,
+  "name": "Hsiao Yun-Hwa",
+  "role": "deleted",
+  "name_count": 39,
+  "slot_types": [
+   "instrument",
+   "friend",
+   "novella",
+   "employer",
+   "typewriters",
+   "mentor",
+   "story_year",
+   "street",
+   "reading_day"
+  ]
+ },
+ {
+  "id": 181,
+  "name": "Carmen Montenegro",
+  "role": "deleted",
+  "name_count": 35,
+  "slot_types": [
+   "instrument",
+   "typewriters",
+   "street",
+   "reading_day",
+   "mentor",
+   "employer",
+   "story_year",
+   "early_award",
+   "novella"
+  ]
+ },
+ {
+  "id": 182,
+  "name": "Elvin Mammadov",
+  "role": "deleted",
+  "name_count": 38,
+  "slot_types": [
+   "mentor",
+   "reading_day",
+   "typewriters",
+   "friend",
+   "novella",
+   "summer_city",
+   "employer",
+   "street",
+   "instrument"
+  ]
+ },
+ {
+  "id": 183,
+  "name": "Rajeev Majumdar",
+  "role": "deleted",
+  "name_count": 33,
+  "slot_types": [
+   "story_year",
+   "early_award",
+   "summer_city",
+   "typewriters",
+   "instrument",
+   "mentor",
+   "novella",
+   "reading_day",
+   "friend"
+  ]
+ },
+ {
+  "id": 184,
+  "name": "Jad Ambrose Al-Shamary",
+  "role": "deleted",
+  "name_count": 39,
+  "slot_types": [
+   "typewriters",
+   "mentor",
+   "friend",
+   "novella",
+   "early_award",
+   "employer",
+   "summer_city",
+   "instrument",
+   "story_year"
+  ]
+ },
+ {
+  "id": 185,
+  "name": "Adib Jarrah",
+  "role": "deleted",
+  "name_count": 36,
+  "slot_types": [
+   "novella",
+   "reading_day",
+   "mentor",
+   "friend",
+   "story_year",
+   "early_award",
+   "instrument",
+   "employer",
+   "typewriters"
+  ]
+ },
+ {
+  "id": 186,
+  "name": "Ji-Yeon Park",
+  "role": "deleted",
+  "name_count": 37,
+  "slot_types": [
+   "instrument",
+   "reading_day",
+   "mentor",
+   "summer_city",
+   "novella",
+   "employer",
+   "typewriters",
+   "street",
+   "story_year"
+  ]
+ },
+ {
+  "id": 187,
+  "name": "Behrouz Rohani",
+  "role": "deleted",
+  "name_count": 26,
+  "slot_types": [
+   "friend",
+   "story_year",
+   "instrument",
+   "early_award",
+   "typewriters",
+   "novella",
+   "summer_city",
+   "employer",
+   "street"
+  ]
+ },
+ {
+  "id": 188,
+  "name": "Wei-Jun Chen",
+  "role": "deleted",
+  "name_count": 39,
+  "slot_types": [
+   "mentor",
+   "street",
+   "reading_day",
+   "story_year",
+   "novella",
+   "early_award",
+   "summer_city",
+   "friend",
+   "employer"
+  ]
+ },
+ {
+  "id": 189,
+  "name": "Tae-ho Park",
+  "role": "deleted",
+  "name_count": 39,
+  "slot_types": [
+   "summer_city",
+   "street",
+   "mentor",
+   "typewriters",
+   "novella",
+   "story_year",
+   "friend",
+   "reading_day",
+   "employer"
+  ]
+ },
+ {
+  "id": 190,
+  "name": "Hina Ameen",
+  "role": "deleted",
+  "name_count": 39,
+  "slot_types": [
+   "reading_day",
+   "friend",
+   "mentor",
+   "summer_city",
+   "novella",
+   "employer",
+   "instrument",
+   "story_year",
+   "street"
+  ]
+ },
+ {
+  "id": 191,
+  "name": "Xin Lee Williams",
+  "role": "deleted",
+  "name_count": 25,
+  "slot_types": [
+   "typewriters",
+   "mentor",
+   "instrument",
+   "early_award",
+   "story_year",
+   "summer_city",
+   "friend",
+   "reading_day",
+   "street"
+  ]
+ },
+ {
+  "id": 192,
+  "name": "Moshe Ben-David",
+  "role": "deleted",
+  "name_count": 38,
+  "slot_types": [
+   "instrument",
+   "story_year",
+   "early_award",
+   "employer",
+   "novella",
+   "typewriters",
+   "mentor",
+   "reading_day",
+   "street"
+  ]
+ },
+ {
+  "id": 193,
+  "name": "Kalkidan Abera",
+  "role": "deleted",
+  "name_count": 36,
+  "slot_types": [
+   "reading_day",
+   "novella",
+   "street",
+   "instrument",
+   "typewriters",
+   "friend",
+   "mentor",
+   "employer",
+   "story_year"
+  ]
+ },
+ {
+  "id": 194,
+  "name": "Takashi Nakamura",
+  "role": "deleted",
+  "name_count": 32,
+  "slot_types": [
+   "reading_day",
+   "instrument",
+   "early_award",
+   "story_year",
+   "employer",
+   "typewriters",
+   "friend",
+   "street",
+   "novella"
+  ]
+ },
+ {
+  "id": 195,
+  "name": "Raven Marais",
+  "role": "deleted",
+  "name_count": 33,
+  "slot_types": [
+   "employer",
+   "friend",
+   "summer_city",
+   "street",
+   "typewriters",
+   "reading_day",
+   "novella",
+   "early_award",
+   "story_year"
+  ]
+ },
+ {
+  "id": 196,
+  "name": "Aysha Al-Hashim",
+  "role": "deleted",
+  "name_count": 35,
+  "slot_types": [
+   "summer_city",
+   "street",
+   "friend",
+   "reading_day",
+   "mentor",
+   "typewriters",
+   "employer",
+   "early_award",
+   "story_year"
+  ]
+ },
+ {
+  "id": 197,
+  "name": "Edward Patrick Sullivan",
+  "role": "deleted",
+  "name_count": 37,
+  "slot_types": [
+   "street",
+   "reading_day",
+   "novella",
+   "instrument",
+   "story_year",
+   "early_award",
+   "friend",
+   "typewriters",
+   "mentor"
+  ]
+ },
+ {
+  "id": 198,
+  "name": "Basil Mahfouz Al-Kuwaiti",
+  "role": "deleted",
+  "name_count": 37,
+  "slot_types": [
+   "summer_city",
+   "employer",
+   "mentor",
+   "typewriters",
+   "reading_day",
+   "story_year",
+   "instrument",
+   "early_award",
+   "novella"
+  ]
+ },
+ {
+  "id": 199,
+  "name": "Nikolai Abilov",
+  "role": "deleted",
+  "name_count": 36,
+  "slot_types": [
+   "summer_city",
+   "instrument",
+   "reading_day",
+   "typewriters",
+   "early_award",
+   "novella",
+   "street",
+   "employer",
+   "mentor"
+  ]
+ }
+]

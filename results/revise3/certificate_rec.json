@@ -1,0 +1,175 @@
+{
+ "key0/qwen3b__planted": {
+  "per_kind": {
+   "direct": {
+    "D": 1.0114970373662375,
+    "top1": 0.6243243243243243,
+    "B": 20,
+    "E_tau_bound": 12.901109762734311,
+    "eta": 0.0,
+    "gamma": 0.883982192974793,
+    "c": 2.744600978686288
+   },
+   "paraphrase": {
+    "D": 0.40038394710983943,
+    "top1": 0.36486486486486486,
+    "B": 86,
+    "E_tau_bound": 47.640481065806426,
+    "eta": 0.0,
+    "gamma": 0.3700146034026662,
+    "c": 2.744600978686288
+   },
+   "cloze": {
+    "D": 1.209952265268553,
+    "top1": 0.7,
+    "B": 17,
+    "E_tau_bound": 10.831615200991395,
+    "eta": 0.0,
+    "gamma": 1.0037125062356993,
+    "c": 2.744600978686288
+   },
+   "fewshot": {
+    "D": 0.37384214141649375,
+    "top1": 0.3810810810810811,
+    "B": 125,
+    "E_tau_bound": 67.51860458130999,
+    "eta": 0.0,
+    "gamma": 0.29856699735597453,
+    "c": 2.744600978686288
+   }
+  },
+  "B_mixture": 17,
+  "E_tau_bound_mixture": 10.831615200991395,
+  "best_kind": "cloze"
+ },
+ "key0/qwen3b__npo": {
+  "per_kind": {
+   "direct": {
+    "D": 0.4422314546374009,
+    "top1": 0.3972972972972973,
+    "B": 67,
+    "E_tau_bound": 38.089062268869036,
+    "eta": 0.0,
+    "gamma": 0.4260603353126338,
+    "c": 2.744600978686288
+   },
+   "paraphrase": {
+    "D": 0.24136705121995233,
+    "top1": 0.2945945945945946,
+    "B": 654,
+    "E_tau_bound": 318.7617948103527,
+    "eta": 0.0,
+    "gamma": 0.12186541003016375,
+    "c": 2.744600978686288
+   },
+   "cloze": {
+    "D": 0.6468298951641567,
+    "top1": 0.4945945945945946,
+    "B": 37,
+    "E_tau_bound": 21.906123764093024,
+    "eta": 0.0,
+    "gamma": 0.6118697838964213,
+    "c": 2.744600978686288
+   },
+   "fewshot": {
+    "D": 0.20538004541964752,
+    "top1": 0.27837837837837837,
+    "B": 1446,
+    "E_tau_bound": 682.0763012258757,
+    "eta": 0.0,
+    "gamma": 0.0804855889494672,
+    "c": 2.744600978686288
+   }
+  },
+  "B_mixture": 37,
+  "E_tau_bound_mixture": 21.906123764093024,
+  "best_kind": "cloze"
+ },
+ "key0/llama3b__planted": {
+  "per_kind": {
+   "direct": {
+    "D": 1.4899650059848484,
+    "top1": 0.8027027027027027,
+    "B": 14,
+    "E_tau_bound": 9.27608477446175,
+    "eta": 0.0,
+    "gamma": 1.1266297927893703,
+    "c": 2.744600978686288
+   },
+   "paraphrase": {
+    "D": 0.6318117989956042,
+    "top1": 0.4891891891891892,
+    "B": 40,
+    "E_tau_bound": 23.932511252876544,
+    "eta": 0.0,
+    "gamma": 0.5766530934916175,
+    "c": 2.744600978686288
+   },
+   "cloze": {
+    "D": 1.5922735514957178,
+    "top1": 0.845945945945946,
+    "B": 13,
+    "E_tau_bound": 8.884826013388016,
+    "eta": 0.0,
+    "gamma": 1.1639427898626287,
+    "c": 2.744600978686288
+   },
+   "fewshot": {
+    "D": 0.604497861515765,
+    "top1": 0.4783783783783784,
+    "B": 41,
+    "E_tau_bound": 24.078866501852243,
+    "eta": 0.0,
+    "gamma": 0.5743143585769296,
+    "c": 2.744600978686288
+   }
+  },
+  "B_mixture": 13,
+  "E_tau_bound_mixture": 8.884826013388016,
+  "best_kind": "cloze"
+ },
+ "key0/qwen7b__planted": {
+  "per_kind": {
+   "direct": {
+    "D": 1.3301332642170445,
+    "top1": 0.7378378378378379,
+    "B": 15,
+    "E_tau_bound": 9.957416294937412,
+    "eta": 0.0,
+    "gamma": 1.0682203478742043,
+    "c": 2.744600978686288
+   },
+   "paraphrase": {
+    "D": 0.515037563999358,
+    "top1": 0.4243243243243243,
+    "B": 51,
+    "E_tau_bound": 29.596232480519763,
+    "eta": 0.0,
+    "gamma": 0.501273803678395,
+    "c": 2.744600978686288
+   },
+   "cloze": {
+    "D": 1.525558500278946,
+    "top1": 0.7972972972972973,
+    "B": 14,
+    "E_tau_bound": 9.059869353297888,
+    "eta": 0.0,
+    "gamma": 1.146879435998013,
+    "c": 2.744600978686288
+   },
+   "fewshot": {
+    "D": 0.5484864754098171,
+    "top1": 0.44054054054054054,
+    "B": 48,
+    "E_tau_bound": 27.923364177267665,
+    "eta": 0.0,
+    "gamma": 0.5207220222179973,
+    "c": 2.744600978686288
+   }
+  },
+  "B_mixture": 14,
+  "E_tau_bound_mixture": 9.059869353297888,
+  "best_kind": "cloze"
+ },
+ "_notes": "Recommended verifier = average of 4 kind-specific fixed prior-shaped e-processes (lambda = 0.75). Its wealth is at least max_t W^t / 4 (Prop. 3), so it crosses 1/alpha no later than any kind's e-process crosses 4/alpha. Each kind's certificate is Thm 2(v)/(vi) for a fixed bet (no regret term) with threshold log(4/alpha), gamma = E_P[log f(R)] and c = log(max f / min f), under that kind's pooled i.i.d. rank law (deleted canaries, ordering 0, add-0.5 smoothing). B_mixture / E_tau_bound_mixture = minimum over kinds (valid because tau_mix <= tau_t(4/alpha) pathwise for every t)."
+}

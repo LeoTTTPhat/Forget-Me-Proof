@@ -1,0 +1,145 @@
+{
+ "key0/qwen3b": {
+  "refuse_kw_full": {
+   "k": 11,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 11,
+   "c": 0,
+   "p": 0.0009765625
+  },
+  "route_kw_full": {
+   "k": 2,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 2,
+   "c": 0,
+   "p": 0.5
+  },
+  "refuse_semantic": {
+   "k": 9,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 9,
+   "c": 0,
+   "p": 0.00390625
+  },
+  "route_semantic": {
+   "k": 2,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 2,
+   "c": 0,
+   "p": 0.5
+  },
+  "refuse_kw_tok": {
+   "k": 0,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 0,
+   "c": 0,
+   "p": 1.0
+  },
+  "route_kw_tok": {
+   "k": 0,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 0,
+   "c": 0,
+   "p": 1.0
+  }
+ },
+ "key0/llama3b": {
+  "refuse_kw_full": {
+   "k": 14,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 14,
+   "c": 0,
+   "p": 0.0001220703125
+  },
+  "route_kw_full": {
+   "k": 2,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 2,
+   "c": 0,
+   "p": 0.5
+  },
+  "refuse_semantic": {
+   "k": 8,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 8,
+   "c": 0,
+   "p": 0.0078125
+  },
+  "route_semantic": {
+   "k": 3,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 3,
+   "c": 0,
+   "p": 0.25
+  },
+  "refuse_kw_tok": {
+   "k": 0,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 0,
+   "c": 0,
+   "p": 1.0
+  },
+  "route_kw_tok": {
+   "k": 0,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 0,
+   "c": 0,
+   "p": 1.0
+  }
+ },
+ "rag": {
+  "lazy": {
+   "k": 20,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 20,
+   "c": 0,
+   "p": 1.9073486328125e-06
+  },
+  "partial": {
+   "k": 19,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 19,
+   "c": 0,
+   "p": 3.814697265625e-06
+  },
+  "filter_kw_full": {
+   "k": 19,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 19,
+   "c": 0,
+   "p": 3.814697265625e-06
+  },
+  "filter_kw_tok": {
+   "k": 0,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 0,
+   "c": 0,
+   "p": 1.0
+  },
+  "filter_semantic": {
+   "k": 6,
+   "n": 20,
+   "compliant_k": 0,
+   "b": 6,
+   "c": 0,
+   "p": 0.03125
+  }
+ },
+ "_notes": "Exact McNemar (two-sided binomial on discordant pairs), ordering 0, same 20 deleted subjects; replaces the unpaired Fisher tests."
+}

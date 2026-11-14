@@ -1,0 +1,71 @@
+{
+ "qwen3b__retrain": {
+  "1": {
+   "false_accusation_target": 0.036,
+   "n": 1000,
+   "ci95": [
+    0.025338914929837742,
+    0.04949291171801237
+   ]
+  },
+  "2": {
+   "false_accusation_target": 0.041,
+   "n": 1000,
+   "ci95": [
+    0.02958016853403612,
+    0.05521245931529929
+   ]
+  },
+  "5": {
+   "false_accusation_target": 0.053,
+   "n": 1000,
+   "ci95": [
+    0.03994925236001939,
+    0.0687551832899632
+   ]
+  },
+  "10": {
+   "false_accusation_target": 0.063,
+   "n": 1000,
+   "ci95": [
+    0.048746927556580534,
+    0.07988804187335452
+   ]
+  }
+ },
+ "llama3b__retrain": {
+  "1": {
+   "false_accusation_target": 0.02,
+   "n": 1000,
+   "ci95": [
+    0.012258267972406327,
+    0.03072003268260911
+   ]
+  },
+  "2": {
+   "false_accusation_target": 0.026,
+   "n": 1000,
+   "ci95": [
+    0.017052786345629425,
+    0.037865122478921445
+   ]
+  },
+  "5": {
+   "false_accusation_target": 0.055,
+   "n": 1000,
+   "ci95": [
+    0.041698795079536013,
+    0.07099151554205749
+   ]
+  },
+  "10": {
+   "false_accusation_target": 0.061,
+   "n": 1000,
+   "ci95": [
+    0.04697787554108019,
+    0.07767077404912352
+   ]
+  }
+ },
+ "_notes": "Same procedure as results/revise1/grinding.json (G keys tried against the never-trained Qwen2.5-3B, best kept, compliant retrain audited) with 50 instead of 20 repetitions and a different random stream; G = 1 is the honest rate."
+}

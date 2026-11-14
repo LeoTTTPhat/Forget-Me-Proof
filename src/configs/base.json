@@ -1,0 +1,31 @@
+{
+  "name": "full",
+  "key": "key0",
+  "subjects": {"deleted": [180, 200], "retained": [160, 180], "extra": [0, 40], "phantom": [40, 80], "detector_pool": [80, 160]},
+  "n_slots": 9,
+  "slot_rates": [4, 4, 4, 4, 4, 2, 2, 1, 1],
+  "n_candidates": 20,
+  "m_plus_1": 10,
+  "phantom_slots": 5,
+  "trap": {"n_candidates": 10, "n_words": 10, "repeats": 4},
+  "dolly_n": 600,
+  "dolly_max_words": 180,
+  "rag": {"dolly_contexts": 5000, "qa_per_passage": 4, "top_k": 3, "subjects": ["deleted", "retained", "phantom20"],
+          "slots": 5, "probes_per_kind": 2, "partial_copy_frac": 0.5},
+  "probe": {"kinds": ["direct", "paraphrase", "cloze", "fewshot"], "per_kind": 4, "batch_probes": 16, "phantom_subjects": 20, "m20_kinds": ["direct", "cloze"]},
+  "train": {"lora_r": 16, "lora_alpha": 32, "lora_dropout": 0.05, "lr": 2e-4, "epochs": 4, "batch_size": 16,
+            "max_len": 384, "warmup": 20, "seed": 0, "ckpt_every": 25, "grad_ckpt": false},
+  "unlearn": {
+    "common": {"lora_r": 16, "lora_alpha": 32, "batch_size": 8, "max_len": 384, "epochs": 5, "seed": 0, "ckpt_every": 25, "grad_ckpt": false},
+    "ga": {"lr": 2e-5},
+    "graddiff": {"lr": 2e-5, "retain_weight": 1.0},
+    "npo": {"lr": 5e-5, "beta": 0.1, "retain_weight": 1.0},
+    "rmu": {"lr": 5e-5, "layer": 7, "steer_coeff": 20.0, "alpha": 100.0},
+    "adaptive": {"lr": 5e-5, "beta": 0.1, "retain_weight": 1.0, "tprs": [0.5, 0.9]}
+  },
+  "detector": {"model": "microsoft/deberta-v3-base", "epochs": 3, "lr": 3e-5, "batch_size": 16, "n_train_subjects": 60, "seeds": [0, 1, 2]},
+  "utility": {"mmlu_n": 500, "tofu_retain_n": 200},
+  "sample": {"n_canaries": 20, "probes": 4, "samples": 4, "temperatures": [0.0, 0.7, 1.0], "max_new_tokens": 16, "seeds": [0, 1, 2]},
+  "mia": {"k_frac": 0.2, "phantom_subjects": 20},
+  "stats": {"alpha": [0.05, 0.01], "orderings": 3, "mc_runs": 100000}
+}
